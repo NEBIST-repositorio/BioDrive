@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "restricted area"
+AuthUserFile /Users/inestrincheiras/Desktop/Bio-Drive/html/.htaccess
+require valid-user
