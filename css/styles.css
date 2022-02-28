@@ -425,7 +425,7 @@ main {
 /* Table */
 
 .container {
-    font-size: clamp(1.167rem, 1vw + 1rem, 1.5rem);
+    font-size: clamp(1.083rem, 1vw + 0.75rem, 1.417rem);
 }
 
 .container a {
@@ -444,17 +444,22 @@ table {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     background-color: var(--clr-white);
+    width: 90%;
+    line-height: 120%;
 }
 
 td,
 th {
     text-align: left;
     padding: 8px;
+    height: 40px;
+    max-height: 40px;
 }
 
 .container th {
     background-color: var(--clr-accent);
     color: var(--clr-white);
+    font-size: clamp(1.167rem, 1vw + 0.85rem, 1.5rem);
 }
 
 .container th a {
@@ -472,8 +477,12 @@ tr:nth-child(even) {
 table td:nth-child(2),
 table td:nth-child(3) {
     text-align: center;
-    width: 1px;
+    width: 1%;
     padding: 8px 15px;
+}
+
+table td:nth-child(1) {
+    width: 99%;
 }
 
 @media (max-width: 767px) {
