@@ -14,6 +14,7 @@
     --clr-white: white;
     --clr-login: #0057b8;
     --clr-password: #da291c;
+    --clr-passwordbefore: rgb(161, 220, 82);
     --ff-title: Audiowide, cursive;
     --ff-body: Open Sans, sans-serif;
 }
@@ -195,7 +196,8 @@ header a {
 #login,
 #password,
 #login2,
-#password2 {
+#password2,
+#password-before {
     border-radius: 5px;
     padding: 5px 8px;
 }
@@ -203,6 +205,7 @@ header a {
 #login {
     border: 1px solid var(--clr-login);
     margin-right: 5px;
+    display: none;
 }
 
 #password {
@@ -212,18 +215,27 @@ header a {
 #login2 {
     border: 1px solid transparent;
     margin-right: 5px;
+    display: none;
 }
 
 #password2 {
     border: 1px solid transparent;
 }
 
-#password a {
-    color: var(--clr-password);
+#password-before {
+    border: 1px solid var(--clr-passwordbefore);
 }
 
 #login a {
     color: var(--clr-login);
+}
+
+#password a {
+    color: var(--clr-password);
+}
+
+#password-before a {
+    color: var(--clr-passwordbefore);
 }
 
 header ul {
