@@ -1,0 +1,23 @@
+{
+    "ano1": {
+        "cadeiras": [
+            "quimica",
+            "fisica"
+        ]
+    },
+
+    "ano2": {
+        "cadeiras": [
+            "quimica2",
+            "fisica2"
+        ]
+    },
+
+    "ano3": {
+        "cadeiras": [
+            "quimica3",
+            "fisica3"
+        ]
+    }
+
+}
