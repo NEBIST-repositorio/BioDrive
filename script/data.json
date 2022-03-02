@@ -1,9 +1,13 @@
 {
     "ano1": {
-        "cadeiras": [
-            "quimica",
-            "fisica"
-        ]
+        "cadeiras": {
+            "quimica": [
+                "avaliacao",
+                "exames",
+                "material do professor"
+            ],
+            "fisica": {}
+        }
     },
 
     "ano2": {
