@@ -5,7 +5,6 @@ const URL = "https://nebist-repositorio.github.io/BioDrive/script/data.json"
 
 window.onload = function() {
     readJSON();
-    console.log(jsData);
 
     // Change to right year
 
@@ -30,7 +29,7 @@ function readJSON() {
 
     xhr.onload = function() {
         jsData = xhr.response;
-        console.log(jsData.ano1);
+        console.log(jsData);
     };
     xhr.send();
 }
@@ -42,10 +41,35 @@ function goToYear(year) {
 }
 
 
-function changeYear(year) {
-    addSemesters(year);
-    document.getElementById("header_ano").innerHTML = year;
+
+
+function appendHeader(value, func) {
+    const header = document.getElementById("header_ano");
+
+    if (header.getElementsByClassName(value).length == 0) {
+        document.getElementById("header_ano").innerHTML +=
+            `&nbsp&nbsp<i class = "fa-solid fa-angle-right fa-xs" ></i>&nbsp
+            <a class="` + value + `" onclick=` + func + `>` + value + `</a>`;
+    }
 }
+
+function removeHeader(value) {
+    header_2 = document.getElementById("header_ano");
+    element = header_2.getElementsByClassName(value);
+    console.log(header_2)
+    console.log(element.length)
+
+    if (element.length > 0) {
+        var child = header_2.lastElementChild;
+        console.log(child)
+
+        while (child !== element) {
+            header_2.removeChild(child);
+            child = header_2.lastElementChild;
+        }
+    }
+}
+
 
 
 // removes all nodes from table body
@@ -60,47 +84,77 @@ function removeContent() {
 
 }
 
-// adds Semesters and functions to add courses
+
+function changeYear(year) {
+    // Sets header 
+    document.getElementById("header_ano").innerHTML =
+        `<a onclick="changeYear('` + year + `')">` + year + `</a>`;
+    addSemesters(year);
+}
+
+
+// Adds Semesters and functions to add Courses on table body
 function addSemesters(year) {
     removeContent();
+
     document.getElementById("cont_table").innerHTML +=
         `<tr><td><a onclick="addCourses('` + year +
         `','1º Semestre')"> 1º Semestre </a></td></tr>
         <tr><td><a onclick="addCourses('` + year +
-        `','2º Semestre')"> 2º Semestre </a></td></tr>`
+        `','2º Semestre')"> 2º Semestre </a></td></tr>`;
 }
 
 
+// Adds Courses and functions to add folders on table body
 function addCourses(year, semester) {
+    removeContent();
+    removeHeader(semester);
+
+    // function to comeback to courses
+    const func = "\"addCourses('" + year + "','" + semester + "')\"";
+    appendHeader(semester, func);
+
     table_body = document.getElementById("cont_table");
-
-    console.log("Year: " + jsData["1º Ano"])
-
-    for (let i = 0; i < jsData.year.semester.length; i++) {
+    for (let i in jsData[year][semester]) {
         table_body.innerHTML +=
-            `<tr><td><a>` + jsData[year].semester[i] + '</a></td></tr>'
+            `<tr><td><a onclick="addFolders('` + year + `', '` + semester + `', '` + i + `' )">` + i + `</a>
+            </td></tr>`;
+    }
+}
+
+function addFolders(year, semester, course) {
+    removeContent();
+
+    const func = "\"addFolders('" + year + "','" + semester + "','" + course + "')\"";
+    appendHeader(course, func);
+
+    table_body = document.getElementById("cont_table");
+    for (let i in jsData[year][semester][course]) {
+        table_body.innerHTML +=
+            `<tr><td><a>` + i + `</a></td></tr>`;
     }
 
-    // tr = document.createElement("tr");
-    // td = document.createElement("td");
-
-    // a = document.createElement("a");
-
-    // i = document.createElement("i");
-    // i.setAttribute("class", "fa-solid fa-eye fa-lg")
-
-    // a.appendChild(i)
-    // td.appendChild(td)
-
-    // td_text = document.createTextNode(i + "º Semestre");
-
-    // td.appendChild(td_text);
-    // tr.appendChild(td);
-    // tabela.appendChild(tr);
 }
 
 
 
+
+// tr = document.createElement("tr");
+// td = document.createElement("td");
+
+// a = document.createElement("a");
+
+// i = document.createElement("i");
+// i.setAttribute("class", "fa-solid fa-eye fa-lg")
+
+// a.appendChild(i)
+// td.appendChild(td)
+
+// td_text = document.createTextNode(i + "º Semestre");
+
+// td.appendChild(td_text);
+// tr.appendChild(td);
+// tabela.appendChild(tr);
 
 
 // MENU HAMBURGER
