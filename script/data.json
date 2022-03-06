@@ -1,27 +1,429 @@
 {
-    "ano1": {
-        "cadeiras": {
-            "quimica": [
-                "avaliacao",
-                "exames",
-                "material do professor"
-            ],
-            "fisica": {}
+    "1º Ano": {
+        "1º Semestre": {
+            "Álgebra Linear": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Cálculo Diferencial e Integral I": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Introdução à Bioengenharia": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Introdução às Ciências Biológicas": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Química": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Tópicos de Bioengenharia": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            }
+        },
+
+        "2º Semestre": {
+            "Bioquímica e Biologia Molecular da Célula": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Cálculo Diferencial e Integral II": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Computação e Programação": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Fundamentos de Química Orgânica": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            }
         }
     },
 
-    "ano2": {
-        "cadeiras": [
-            "quimica2",
-            "fisica2"
-        ]
+
+
+
+
+    "2º Ano": {
+        "1º Semestre": {
+            "Algoritmos e Modelação Computacional": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Cálculo Diferencial e Integral III": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Física I": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Microbiologia": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Termodinâmica Química Aplicada": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            }
+        },
+
+        "2º Semestre": {
+            "Fenómenos de Transporte": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Física II": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Probabilidade e Estatística": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Química Bioanalítica": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Química-Física Aplicada": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            }
+        }
     },
 
-    "ano3": {
-        "cadeiras": [
-            "quimica3",
-            "fisica3"
-        ]
+
+
+
+
+    "3º Ano": {
+        "1º Semestre": {
+            "Engenharia Enzimática": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Engenharia Genética": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Fenómenos de Transporte em Sistemas Biológicos": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Gestão": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Introdução a Processos de Separação": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Processos de Engenharia Biológica": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Termodinâmica de Engenharia Química": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            }
+        },
+
+        "2º Semestre": {
+            "Biologia Estrutural": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Biorrefinarias e Bioprocessos": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Biotecnologia Marinha": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Design de Nanomateriais": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Engenharia de Células e Tecidos": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Engenharia e Design de Proteínas": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Fábricas Celulares Microbianas": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Fabrico de Biofármacos": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Introdução à Economia": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Introdução à Matemática Computacional": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Laboratórios de Engenharia Biológica": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Microbiomas": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Simulação de Sistemas Dinâmicos": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Tecnologias Verdes e Estratégias de Decisão": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            }
+        }
+    },
+
+
+
+
+
+    "4º Ano": {
+        "1º Semestre": {
+            "Empreendedorismo em Bioengenharia": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Gestão da Produção e das Operações": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Reatores Biológicos": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Separação e Purificação de Produtos Biológicos": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Sistemas e Controlo em Bioengenharia": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Tecnologia Ambiental": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Unidades Curriculares de Opção": {
+                "Microbiologia Molecular e Celular": {
+                    "Avaliação Contínua": {},
+                    "Exames": {},
+                    "Material do Aluno": {},
+                    "Material do Professor": {},
+                    "Material Extra": {}
+                },
+                "Nanotecnologias": {
+                    "Avaliação Contínua": {},
+                    "Exames": {},
+                    "Material do Aluno": {},
+                    "Material do Professor": {},
+                    "Material Extra": {}
+                }
+            }
+        },
+
+        "2º Semestre": {
+            "Engenharia de Bioprocessos Integrados": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Genómica Funcional e Bioinformática": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            },
+            "Sistemas de Gestão da Qualidade I": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            }
+        }
+    },
+
+
+
+
+
+    "5º Ano": {
+        "1º Semestre": {
+            "Laboratórios de Engenharia Biológica Integrados": {
+                "Avaliação Contínua": {},
+                "Exames": {},
+                "Material do Aluno": {},
+                "Material do Professor": {},
+                "Material Extra": {}
+            }
+        }
     }
+
 
 }

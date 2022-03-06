@@ -253,6 +253,7 @@ header ul a:hover {
 header ul li {
     padding: 5px;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 header ul li:hover {
@@ -476,6 +477,10 @@ table {
     background-color: var(--clr-white);
     width: 90%;
     line-height: 120%;
+}
+
+table a {
+    cursor: pointer;
 }
 
 td,

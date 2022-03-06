@@ -14,9 +14,8 @@
 
 </head>
 
+
 <body>
-
-
     <header>
         <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
             <div class="bar1"></div>
@@ -32,7 +31,6 @@
 
             </ul>
         </div>
-
         <div id="top">
             <div id="enter2">
                 <li id="login2"><i class="fa-solid fa-right-to-bracket"></i></li>
@@ -49,6 +47,8 @@
                 <li id="login"><a href=""><i class="fa-solid fa-right-to-bracket"></i></a></li>
                 <li id="password"><a href="../index.html"><i class="fa-solid fa-right-to-bracket"></i></a></li>
             </div>
+
+
         </div>
 
         <nav>
@@ -58,7 +58,7 @@
                 <li><a onclick="goToYear('3º Ano')">3º Ano</a></li>
                 <li><a onclick="goToYear('4º Ano')">4º Ano</a></li>
                 <li><a onclick="goToYear('5º Ano')">5º Ano</a></li>
-                <li><a href="">Arquivo </a></li>
+                <li><a href="../html/arquivo.html">Arquivo </a></li>
             </ul>
         </nav>
 
@@ -67,44 +67,25 @@
     <main>
         <section class="container">
 
-            <table id="arquivo">
-                <tr>
-                    <th><a href="https://saxada.s.cld.pt">Arquivo (Modelo Antigo)</a></th>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="https://meocloud.pt/link_auth/ddb72433-6067-4e74-91de-ff3e08700b64/1%C2%BA%20Ano/">1º
-                            Ano</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="https://meocloud.pt/link_auth/06fa38f9-aedd-4ef0-818e-6de2390ae773/2%C2%BA%20Ano/">2º
-                            Ano</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="https://meocloud.pt/link/83d33e18-cfa2-489f-afe2-9a7834148605/3%C2%BA%20Ano/">3º
-                            Ano</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="https://meocloud.pt/link_auth/ab395294-0cc1-4b9c-875e-e012812f06ef/4%C2%BA%20Ano/">4º
-                            Ano</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="https://meocloud.pt/link_auth/299584e5-c5e1-4d5e-ac61-8cb81841aa0c/5%C2%BA%20Ano/">5º
-                            Ano</a>
-                    </td>
-                </tr>
+            <table id="ano">
+                <thead>
+                    <tr>
+                        <th id="header_ano" colspan=" 3 ">
+                            <a onclick="changeYear('1ºAno')">
+
+                            </a>
+                        </th>
+                    </tr>
+                </thead>
+
+                <tbody id="cont_table">
+
+                </tbody>
             </table>
 
 
         </section>
+
 
     </main>
 
