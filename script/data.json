@@ -61,7 +61,13 @@
                 "Material Extra": {}
             },
             "Computação e Programação": {
-                "Avaliação Contínua": {},
+                "Avaliação Contínua": {
+                    "doc": [{
+                        "doc1": {
+                            "name": "Joao"
+                        }
+                    }]
+                },
                 "Exames": {},
                 "Material do Aluno": {},
                 "Material do Professor": {},
@@ -69,12 +75,14 @@
             },
             "Fundamentos de Química Orgânica": {
                 "Avaliação Contínua": {
-                    "doc1": { "name": "FQO - 2021/2022 MAP3.pdf", "id": "1GNuOW2crWdKlv4lSa0WdMerAiUCNCvFU" },
-                    "doc2": { "name": "FQO - 2021/2022 MAP3 + Resolução.pdf", "id": "12-hSVKKnAvh4J9nk1J48d6zIlpLPjCc_" },
-                    "doc3": { "name": "FQO - 2021/2022 MAP2 + Resolução.pdf", "id": "1KWWhnx2Z84QQIpzFBb_dQs_0fB4JT3lV" },
-                    "doc4": { "name": "FQO - 2021/2022 MAP2.pdf", "id": "1Vbjlo_HnHGneslrCVNcWNMHeDuLrUkgw" },
-                    "doc5": { "name": "FQO - 2021/2022 MAP1 + Resolução.pdf", "id": "1sEHjoz777IeIThOS2RNtyAiuBMGsx1aJ" },
-                    "doc6": { "name": "FQO - 2021/2022 MAP1.pdf", "id": "1wg-t4shIHM_zFhN_ovDtSExvvmUu6lpN" }
+                    "files": [
+                        { "name": "FQO - 2021/2022 MAP3.pdf", "id": "1GNuOW2crWdKlv4lSa0WdMerAiUCNCvFU" },
+                        { "name": "FQO - 2021/2022 MAP3 + Resolução.pdf", "id": "12-hSVKKnAvh4J9nk1J48d6zIlpLPjCc_" },
+                        { "name": "FQO - 2021/2022 MAP2 + Resolução.pdf", "id": "1KWWhnx2Z84QQIpzFBb_dQs_0fB4JT3lV" },
+                        { "name": "FQO - 2021/2022 MAP2.pdf", "id": "1Vbjlo_HnHGneslrCVNcWNMHeDuLrUkgw" },
+                        { "name": "FQO - 2021/2022 MAP1 + Resolução.pdf", "id": "1sEHjoz777IeIThOS2RNtyAiuBMGsx1aJ" },
+                        { "name": "FQO - 2021/2022 MAP1.pdf", "id": "1wg-t4shIHM_zFhN_ovDtSExvvmUu6lpN" }
+                    ]
                 },
                 "Exames": {
                     "doc7": { "name": "FQO - 2021/2022 Exame 1 + Resolução.pdf", "id": "1O_1eYeDnJpj9zKotmvfaSGGd31doWsUw" },
@@ -82,16 +90,16 @@
                 },
                 "Material do Aluno": {},
                 "Material do Professor": {
-                    "pasta1": {
+                    "folder": {
                         "name": " FQO - 1011/1011 Problemas (Prof. João Paulo Telo)",
-                        "documents": {
-                            "doc31": { "name": "Problemas 1", "id": "169C8xE-4ZezNjQ_f6CQY9LKmPcQeL8NX" },
-                            "doc32": { "name": "Problemas 3 + Resolução", "id": "1S9q2nl2021xaam3b7nQ9JcAX58rdQ0B_" },
-                            "doc33": { "name": "Problemas 2 + Resolução", "id": "1ZugKPJFzwW6VKKstXi8uHeb48RXu-GOZ" },
-                            "doc34": { "name": "Problemas 2", "id": "1fOgkAl2VWKnQpbwQknK-o4rWNcJzSEza" },
-                            "doc35": { "name": "Problemas 1 + Resolução", "id": "1gqC4mLDgUL_IZpIcJ9qRMcLhIKl8ceoR" },
-                            "doc36": { "name": "Problemas 3 + Resolução", "id": "1oed-7rjFikjR-svqTQoQRHIgwGR7Xphh" }
-                        }
+                        "files": [
+                            { "name": "Problemas 1", "id": "169C8xE-4ZezNjQ_f6CQY9LKmPcQeL8NX" },
+                            { "name": "Problemas 3 + Resolução", "id": "1S9q2nl2021xaam3b7nQ9JcAX58rdQ0B_" },
+                            { "name": "Problemas 2 + Resolução", "id": "1ZugKPJFzwW6VKKstXi8uHeb48RXu-GOZ" },
+                            { "name": "Problemas 2", "id": "1fOgkAl2VWKnQpbwQknK-o4rWNcJzSEza" },
+                            { "name": "Problemas 1 + Resolução", "id": "1gqC4mLDgUL_IZpIcJ9qRMcLhIKl8ceoR" },
+                            { "name": "Problemas 3 + Resolução", "id": "1oed-7rjFikjR-svqTQoQRHIgwGR7Xphh" }
+                        ]
                     }
                 },
                 "Material Extra": {}
