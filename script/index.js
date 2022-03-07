@@ -10,7 +10,6 @@ window.onload = function() {
 
     division = window.location.href.split("/")
     page = division[division.length - 1]
-
     if (page !== "arquivo.html" && page !== "indexprivate.html" && page !== "encrypted.html" && page !== "index.html") {
         let queryString = window.location.search;
         let urlParams = new URLSearchParams(queryString);
@@ -29,7 +28,6 @@ function readJSON() {
 
     xhr.onload = function() {
         jsData = xhr.response;
-        console.log(jsData);
     };
     xhr.send();
 }
@@ -40,24 +38,14 @@ function goToYear(year) {
     window.location.href = "../html/ano.html?ano=" + year;
 }
 
-
-
-
 function appendHeader(value, func) {
     const header = document.getElementById("header_ano");
-
-    if (header.getElementsByClassName(value).length == 0) {
-        document.getElementById("header_ano").innerHTML +=
-            `<i class = "fa-solid fa-angle-right fa-xs" ></i><a class="` + value + `" onclick=` + func + `>` + value + `</a>`;
-    }
-}
-
-function removeHeader(value) {
-    header = document.getElementById("header_ano");
     element = header.getElementsByClassName(value);
 
-    // Element already created; we have to remove all childs
-    if (element.length > 0) {
+    if (element.length == 0) {
+        header.innerHTML += `<i class = "fa-solid fa-angle-right fa-xs" ></i><a class="` + value + `" onclick=` + func + `>` + value + `</a>`;
+    } else {
+        // Element already created; we have to remove all childs
         var child = header.lastElementChild;
 
         while (child !== element[0]) {
@@ -65,10 +53,7 @@ function removeHeader(value) {
             child = header.lastElementChild;
         }
     }
-
 }
-
-
 
 // removes all nodes from table body
 function removeContent() {
@@ -96,76 +81,59 @@ function addSemesters(year) {
     removeContent();
 
     document.getElementById("cont_table").innerHTML +=
-        `<tr><td><a onclick="addCourses('` + year +
-        `','1º Semestre')"> 1º Semestre </a></td></tr>
-        <tr><td><a onclick="addCourses('` + year +
-        `','2º Semestre')"> 2º Semestre </a></td></tr>`;
+        `<tr><td><a onclick="addGlobal('` + year + `/1º Semestre')"> 1º Semestre </a></td></tr> 
+         <tr><td><a onclick="addGlobal('` + year + `/2º Semestre')"> 2º Semestre </a></td></tr>`;
 }
 
 
-// Adds Courses to Semester on table body 
-function addCourses(year, semester) {
+function addGlobal(path) {
     removeContent();
-    removeHeader(semester);
+    const path_split = path.split('/');
+    const path_len = path_split.length;
+    const func = "\"addGlobal('" + path + "')\"";
 
-    // function to comeback to courses
-    const func = "\"addCourses('" + year + "','" + semester + "')\"";
-    appendHeader(semester, func);
 
-    table_body = document.getElementById("cont_table");
-    for (let i in jsData[year][semester]) {
-        table_body.innerHTML +=
-            `<tr><td><a onclick="addFolders('` + year + `', '` + semester + `', '` + i + `' )">` + i + `</a>
-            </td></tr>`;
-    }
-}
-
-// Adds Folders to Courses on table body 
-function addFolders(year, semester, course) {
-    removeContent();
-    removeHeader(course);
-    const func = "\"addFolders('" + year + "','" + semester + "','" + course + "')\"";
-    appendHeader(course, func);
-
-    table_body = document.getElementById("cont_table");
-    for (let i in jsData[year][semester][course]) {
-        table_body.innerHTML +=
-            `<tr><td><a>` + i + `</a></td></tr>`;
+    let jsData_copy = jsData;
+    for (let i = 0; i < path_len; i++) {
+        jsData_copy = jsData_copy[path_split[i]];
     }
 
-}
+    let location = path_split[path_len - 1];
+    if (location === "folder")
+        location = jsData_copy.name
 
-// Adds Files to Folders on table body 
-function addFiles(year, semester, course, folder) {
-    removeContent();
-    removeHeader(folder);
-    const func = "\"addFiles('" + year + "','" + semester + "','" + course + "','" + folder + "')\"";
-    appendHeader(course, func);
+    appendHeader(location, func);
 
     table_body = document.getElementById("cont_table");
-    for (let i in jsData[year][semester][course]) {
-        table_body.innerHTML +=
-            `<tr><td><a>` + i + `</a></td></tr>`;
+    for (let i in jsData_copy) {
+        if (i === "files") {
+            displayFiles(jsData_copy["files"]);
+        } else {
+            let suffix = i;
+            if (i === "folder") {
+                suffix = jsData_copy["folder"].name;
+            }
+            if (i !== "name") {
+                new_path = path + "/" + i;
+                table_body.innerHTML += `<tr><td colspan="2"><a onclick="addGlobal('` + new_path + `')">` + suffix + `</a></td></tr>`;
+            }
+        }
     }
 }
 
 
-// tr = document.createElement("tr");
-// td = document.createElement("td");
+function displayFiles(data) {
+    table_body = document.getElementById("cont_table");
+    for (let file in data) {
+        table_body.innerHTML += `
+    <tr>
+        <td><a href="https://drive.google.com/file/d/` + data[file].id + `/view "> ` + data[file].name + `</a></td>
+        <td><a href="https://drive.google.com/uc?export=download&id=` + data[file].id + ` "><i class="fa-solid fa-download fa-lg "></i></td>
+    </tr>`
+    }
+}
 
-// a = document.createElement("a");
 
-// i = document.createElement("i");
-// i.setAttribute("class", "fa-solid fa-eye fa-lg")
-
-// a.appendChild(i)
-// td.appendChild(td)
-
-// td_text = document.createTextNode(i + "º Semestre");
-
-// td.appendChild(td_text);
-// tr.appendChild(td);
-// tabela.appendChild(tr);
 
 
 // MENU HAMBURGER

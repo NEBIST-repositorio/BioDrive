@@ -510,6 +510,7 @@ th {
     background-color: var(--clr-accent);
     color: var(--clr-white);
     font-size: clamp(1.167rem, 1vw + 0.85rem, 1.5rem);
+    line-height: normal;
 }
 
 .container th a {
