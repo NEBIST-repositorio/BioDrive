@@ -61,13 +61,7 @@
                 "Material Extra": {}
             },
             "Computação e Programação": {
-                "Avaliação Contínua": {
-                    "doc": [{
-                        "doc1": {
-                            "name": "Joao"
-                        }
-                    }]
-                },
+                "Avaliação Contínua": {},
                 "Exames": {},
                 "Material do Aluno": {},
                 "Material do Professor": {},
@@ -85,8 +79,10 @@
                     ]
                 },
                 "Exames": {
-                    "doc7": { "name": "FQO - 2021/2022 Exame 1 + Resolução.pdf", "id": "1O_1eYeDnJpj9zKotmvfaSGGd31doWsUw" },
-                    "doc8": { "name": "FQO - 2021/2022 Exame 1.pdf", "id": "1CGvIJ921FXEVU37TEb1V-DZ1dez5r6x-" }
+                    "files": [
+                        { "name": "FQO - 2021/2022 Exame 1 + Resolução.pdf", "id": "1O_1eYeDnJpj9zKotmvfaSGGd31doWsUw" },
+                        { "name": "FQO - 2021/2022 Exame 1.pdf", "id": "1CGvIJ921FXEVU37TEb1V-DZ1dez5r6x-" }
+                    ]
                 },
                 "Material do Aluno": {},
                 "Material do Professor": {
