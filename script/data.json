@@ -88,6 +88,12 @@
                 "Material do Professor": {
                     "folder": {
                         "name": " FQO - 1011/1011 Problemas (Prof. João Paulo Telo)",
+                        "folder": {
+                            "name": "Folder Teste",
+                            "files": [
+                                { "name": "File Teste", "id": "blablabla" }
+                            ]
+                        },
                         "files": [
                             { "name": "Problemas 1", "id": "169C8xE-4ZezNjQ_f6CQY9LKmPcQeL8NX" },
                             { "name": "Problemas 3 + Resolução", "id": "1S9q2nl2021xaam3b7nQ9JcAX58rdQ0B_" },
