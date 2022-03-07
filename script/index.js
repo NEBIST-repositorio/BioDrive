@@ -11,7 +11,7 @@ window.onload = function() {
     division = window.location.href.split("/")
     page = division[division.length - 1]
 
-    if (page !== "arquivo.html" && page !== "indexprivate.html") {
+    if (page !== "arquivo.html" && page !== "indexprivate.html" && page !== "encrypted.html" && page !== "index.html") {
         let queryString = window.location.search;
         let urlParams = new URLSearchParams(queryString);
         let year = urlParams.get('ano');
@@ -48,26 +48,24 @@ function appendHeader(value, func) {
 
     if (header.getElementsByClassName(value).length == 0) {
         document.getElementById("header_ano").innerHTML +=
-            `&nbsp&nbsp<i class = "fa-solid fa-angle-right fa-xs" ></i>&nbsp
-            <a class="` + value + `" onclick=` + func + `>` + value + `</a>`;
+            `<i class = "fa-solid fa-angle-right fa-xs" ></i><a class="` + value + `" onclick=` + func + `>` + value + `</a>`;
     }
 }
 
 function removeHeader(value) {
-    header_2 = document.getElementById("header_ano");
-    element = header_2.getElementsByClassName(value);
-    console.log(header_2)
-    console.log(element.length)
+    header = document.getElementById("header_ano");
+    element = header.getElementsByClassName(value);
 
+    // Element already created; we have to remove all childs
     if (element.length > 0) {
-        var child = header_2.lastElementChild;
-        console.log(child)
+        var child = header.lastElementChild;
 
-        while (child !== element) {
-            header_2.removeChild(child);
-            child = header_2.lastElementChild;
+        while (child !== element[0]) {
+            header.removeChild(child);
+            child = header.lastElementChild;
         }
     }
+
 }
 
 
@@ -93,7 +91,7 @@ function changeYear(year) {
 }
 
 
-// Adds Semesters and functions to add Courses on table body
+// Adds Semesters to Year on table body 
 function addSemesters(year) {
     removeContent();
 
@@ -105,7 +103,7 @@ function addSemesters(year) {
 }
 
 
-// Adds Courses and functions to add folders on table body
+// Adds Courses to Semester on table body 
 function addCourses(year, semester) {
     removeContent();
     removeHeader(semester);
@@ -122,9 +120,10 @@ function addCourses(year, semester) {
     }
 }
 
+// Adds Folders to Courses on table body 
 function addFolders(year, semester, course) {
     removeContent();
-
+    removeHeader(course);
     const func = "\"addFolders('" + year + "','" + semester + "','" + course + "')\"";
     appendHeader(course, func);
 
@@ -136,7 +135,19 @@ function addFolders(year, semester, course) {
 
 }
 
+// Adds Files to Folders on table body 
+function addFiles(year, semester, course, folder) {
+    removeContent();
+    removeHeader(folder);
+    const func = "\"addFiles('" + year + "','" + semester + "','" + course + "','" + folder + "')\"";
+    appendHeader(course, func);
 
+    table_body = document.getElementById("cont_table");
+    for (let i in jsData[year][semester][course]) {
+        table_body.innerHTML +=
+            `<tr><td><a>` + i + `</a></td></tr>`;
+    }
+}
 
 
 // tr = document.createElement("tr");

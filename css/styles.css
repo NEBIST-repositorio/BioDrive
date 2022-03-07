@@ -118,7 +118,7 @@ p,
     .index_list {
         max-width: 35em;
         width: auto;
-        margin: 0 1.2em;
+        margin: 0 1.3em;
     }
     .centered-text {
         text-align: center;
@@ -386,7 +386,6 @@ footer ul li {
 main {
     position: relative;
     height: 100%;
-    background-image: url("images/repositorioblur.jpg");
 }
 
 .foto {
@@ -466,6 +465,10 @@ main {
 
 
 /* Table */
+
+.fa-xs {
+    margin: 0 0.7em;
+}
 
 .container {
     font-size: clamp(1.083rem, 1vw + 0.75rem, 1.417rem);
