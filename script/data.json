@@ -70,24 +70,24 @@
             "Fundamentos de Química Orgânica": {
                 "Avaliação Contínua": {
                     "files": [
-                        { "name": "FQO - 2021/2022 MAP3.pdf", "id": "1GNuOW2crWdKlv4lSa0WdMerAiUCNCvFU" },
-                        { "name": "FQO - 2021/2022 MAP3 + Resolução.pdf", "id": "12-hSVKKnAvh4J9nk1J48d6zIlpLPjCc_" },
-                        { "name": "FQO - 2021/2022 MAP2 + Resolução.pdf", "id": "1KWWhnx2Z84QQIpzFBb_dQs_0fB4JT3lV" },
-                        { "name": "FQO - 2021/2022 MAP2.pdf", "id": "1Vbjlo_HnHGneslrCVNcWNMHeDuLrUkgw" },
-                        { "name": "FQO - 2021/2022 MAP1 + Resolução.pdf", "id": "1sEHjoz777IeIThOS2RNtyAiuBMGsx1aJ" },
-                        { "name": "FQO - 2021/2022 MAP1.pdf", "id": "1wg-t4shIHM_zFhN_ovDtSExvvmUu6lpN" }
+                        { "name": "FQO - 2021-2022 MAP3.pdf", "id": "1GNuOW2crWdKlv4lSa0WdMerAiUCNCvFU" },
+                        { "name": "FQO - 2021-2022 MAP3 + Resolução.pdf", "id": "12-hSVKKnAvh4J9nk1J48d6zIlpLPjCc_" },
+                        { "name": "FQO - 2021-2022 MAP2 + Resolução.pdf", "id": "1KWWhnx2Z84QQIpzFBb_dQs_0fB4JT3lV" },
+                        { "name": "FQO - 2021-2022 MAP2.pdf", "id": "1Vbjlo_HnHGneslrCVNcWNMHeDuLrUkgw" },
+                        { "name": "FQO - 2021-2022 MAP1 + Resolução.pdf", "id": "1sEHjoz777IeIThOS2RNtyAiuBMGsx1aJ" },
+                        { "name": "FQO - 2021-2022 MAP1.pdf", "id": "1wg-t4shIHM_zFhN_ovDtSExvvmUu6lpN" }
                     ]
                 },
                 "Exames": {
                     "files": [
-                        { "name": "FQO - 2021/2022 Exame 1 + Resolução.pdf", "id": "1O_1eYeDnJpj9zKotmvfaSGGd31doWsUw" },
-                        { "name": "FQO - 2021/2022 Exame 1.pdf", "id": "1CGvIJ921FXEVU37TEb1V-DZ1dez5r6x-" }
+                        { "name": "FQO - 2021-2022 Exame 1 + Resolução.pdf", "id": "1O_1eYeDnJpj9zKotmvfaSGGd31doWsUw" },
+                        { "name": "FQO - 2021-2022 Exame 1.pdf", "id": "1CGvIJ921FXEVU37TEb1V-DZ1dez5r6x-" }
                     ]
                 },
                 "Material do Aluno": {},
                 "Material do Professor": {
                     "folder": {
-                        "name": "FQO - 2021/2022 Problemas (Prof. João Paulo Telo)",
+                        "name": "FQO - 2021-2022 Problemas (Prof. João Paulo Telo)",
                         "folder": {
                             "name": "Folder Teste",
                             "files": [
