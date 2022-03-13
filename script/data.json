@@ -151,35 +151,40 @@
                     ]
                 },
                 "Material do Aluno": {},
-                "Material do Professor": {
-                    "folder": {
-                        "name": "FQO - 2021-2022 Problemas (Prof. João Paulo Telo)",
+                "Material do Professor": [{
+                        "folder": {
+                            "name": "FQO - 2021-2022 Problemas (Prof. João Paulo Telo)",
 
-                        "files": [
-                            { "name": "Problemas 3 + Resolução", "id": "1S9q2nl2021xaam3b7nQ9JcAX58rdQ0B_" },
-                            { "name": "Problemas 3", "id": "1oed-7rjFikjR-svqTQoQRHIgwGR7Xphh" },
-                            { "name": "Problemas 2 + Resolução", "id": "1ZugKPJFzwW6VKKstXi8uHeb48RXu-GOZ" },
-                            { "name": "Problemas 2", "id": "1fOgkAl2VWKnQpbwQknK-o4rWNcJzSEza" },
-                            { "name": "Problemas 1 + Resolução", "id": "1gqC4mLDgUL_IZpIcJ9qRMcLhIKl8ceoR" },
-                            { "name": "Problemas 1", "id": "169C8xE-4ZezNjQ_f6CQY9LKmPcQeL8NX" }
+                            "files": [
+                                { "name": "Problemas 3 + Resolução", "id": "1S9q2nl2021xaam3b7nQ9JcAX58rdQ0B_" },
+                                { "name": "Problemas 3", "id": "1oed-7rjFikjR-svqTQoQRHIgwGR7Xphh" },
+                                { "name": "Problemas 2 + Resolução", "id": "1ZugKPJFzwW6VKKstXi8uHeb48RXu-GOZ" },
+                                { "name": "Problemas 2", "id": "1fOgkAl2VWKnQpbwQknK-o4rWNcJzSEza" },
+                                { "name": "Problemas 1 + Resolução", "id": "1gqC4mLDgUL_IZpIcJ9qRMcLhIKl8ceoR" },
+                                { "name": "Problemas 1", "id": "169C8xE-4ZezNjQ_f6CQY9LKmPcQeL8NX" }
 
 
-                        ]
+                            ]
+                        }
                     },
 
-                    "folder": {
-                        "name": "FQO - 2021-2022 Slides (Prof. João Paulo Telo)",
+                    {
+                        "folder": {
+                            "name": "FQO - 2021-2022 Slides (Prof. João Paulo Telo)",
 
-                        "files": [
-                            { "name": "Aromáticos.pdf", "id": "1Dc8yakr0fsv3D4UWvg_5KsCdZQ3FTei0" },
-                            { "name": "Aldeídos e Cetonas.pdf", "id": "1j_-Eqd_SeuWx8wl6BudhrFtXCA3i5cmx" },
-                            { "name": "Ácidos carboxílicos e derivados.pdf", "id": "1tUIt5RrG8KIwcF12yrzr3jObDa5dctdO" }
-                        ]
+                            "files": [
+                                { "name": "Aromáticos.pdf", "id": "1Dc8yakr0fsv3D4UWvg_5KsCdZQ3FTei0" },
+                                { "name": "Aldeídos e Cetonas.pdf", "id": "1j_-Eqd_SeuWx8wl6BudhrFtXCA3i5cmx" },
+                                { "name": "Ácidos carboxílicos e derivados.pdf", "id": "1tUIt5RrG8KIwcF12yrzr3jObDa5dctdO" }
+                            ]
+                        }
                     }
 
-                },
+
+                ],
                 "Material Extra": {}
             },
+
             "HASS": {
 
             }
