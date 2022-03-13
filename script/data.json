@@ -42,43 +42,51 @@
                 },
                 "Material do Aluno": {},
                 "Material do Professor": [{
-                    "folder": {
-                        "name": "IBE - 2021-2022 Exercícios (Prof. Miguel Prazeres)",
+                    "folder": [
+                        { "name": "IBE - 2021-2022 Exercícios (Prof. Miguel Prazeres)" },
 
-                        "files": [
-                            { "name": "1. Introduction.pdf", "id": "1VTRUsYo4RBeTWQNFtH0lEhLKhLWAtWLO" },
-                            { "name": "2. Engineering Calculations.pdf", "id": "1xdfJa85_uY9ce3TuS2jOTrYllDp6xKM4" },
-                            { "name": "3. Bioprocess and Process variables.pdf", "id": "19z8CDx-oLMdwWXqE4IgMZIokUgWe3Kw6" },
-                            { "name": "4. Mass Balances.pdf", "id": "1CGcY-EMnce6YYSXXokyqKiMgUhrmJWdo" },
-                            { "name": "Resoluções IBE.pdf", "id": "1aYGsp_gOgOS61uA7avnYaAFl9zK-Mcb5" },
-                            { "name": "Unit Conversion Tables.pdf", "id": "17miBxR-tHd0zSLkz0iyxDIEtQTclCITs" }
-                        ]
-                    }
+                        {
+                            "files": [
+                                { "name": "1. Introduction.pdf", "id": "1VTRUsYo4RBeTWQNFtH0lEhLKhLWAtWLO" },
+                                { "name": "2. Engineering Calculations.pdf", "id": "1xdfJa85_uY9ce3TuS2jOTrYllDp6xKM4" },
+                                { "name": "3. Bioprocess and Process variables.pdf", "id": "19z8CDx-oLMdwWXqE4IgMZIokUgWe3Kw6" },
+                                { "name": "4. Mass Balances.pdf", "id": "1CGcY-EMnce6YYSXXokyqKiMgUhrmJWdo" },
+                                { "name": "Resoluções IBE.pdf", "id": "1aYGsp_gOgOS61uA7avnYaAFl9zK-Mcb5" },
+                                { "name": "Unit Conversion Tables.pdf", "id": "17miBxR-tHd0zSLkz0iyxDIEtQTclCITs" }
+                            ]
+                        }
+                    ]
                 }, {
-                    "folder": {
-                        "name": "IBE - 2021-2022 Fichas Excel (Prof. Gabriel Costa)",
+                    "folder": [{
+                            "name": "IBE - 2021-2022 Fichas Excel (Prof. Gabriel Costa)"
+                        },
 
-                        "files": [
-                            { "name": "Excel Homework 5.pdf", "id": "1eUy-E0lYr-5zNwQBBb09mJkUVm4JYkiK" },
-                            { "name": "Excel Homework 4.pdf", "id": "1aXwWvllWO3gbvT1v1D_hDq6rtE3QLDDt" },
-                            { "name": "Excel Homework 3.pdf", "id": "1K29QMxddkQBHOEZbiUBukU21kx7eyqNx" },
-                            { "name": "Excel Homework 2.pdf", "id": "16EvqrbbmsLpfoRSOprbipocm0fs1Yz1j" },
-                            { "name": "Excel Homework 1.pdf", "id": "1ucmTXLzzAIedtynpzGpYAQojZ_ggABT2" }
-                        ]
-                    }
+                        {
+                            "files": [
+                                { "name": "Excel Homework 5.pdf", "id": "1eUy-E0lYr-5zNwQBBb09mJkUVm4JYkiK" },
+                                { "name": "Excel Homework 4.pdf", "id": "1aXwWvllWO3gbvT1v1D_hDq6rtE3QLDDt" },
+                                { "name": "Excel Homework 3.pdf", "id": "1K29QMxddkQBHOEZbiUBukU21kx7eyqNx" },
+                                { "name": "Excel Homework 2.pdf", "id": "16EvqrbbmsLpfoRSOprbipocm0fs1Yz1j" },
+                                { "name": "Excel Homework 1.pdf", "id": "1ucmTXLzzAIedtynpzGpYAQojZ_ggABT2" }
+                            ]
+                        }
+                    ]
                 }, {
-                    "folder": {
-                        "name": "IBE - 2021-2022 Slides Teóricos (Pofs. Cláudia Silva e Miguel Prazeres)",
+                    "folder": [{
+                            "name": "IBE - 2021-2022 Slides Teóricos (Pofs. Cláudia Silva e Miguel Prazeres)"
+                        },
 
-                        "files": [
-                            { "name": "Aula 5 - Mass Balances.pdf", "id": "12bDcPchmgqa00YmIAe3tPj68gitfJGcr" },
-                            { "name": "Aula 4B - Bioengineering Variables.pdf", "id": "1uhCmQvJK0Pl-FinT3c__K-qPa61MaAcn" },
-                            { "name": "Aula 4A - Bioprocesses.pdf", "id": "15ezDvc4OVfZOZ6yvM40zCUSQyjpd5yH7" },
-                            { "name": "Aula 2 - Introduction.pdf", "id": "1FkfOXiZtHutDaO0safMW7kMpuOidzkjo" },
-                            { "name": "Aula 3 - Engeneering Calculations.pdf", "id": "1jMhp8Ax9dp2NbTS1-xnmt3hiQZJn1Gx0" },
-                            { "name": "Aula 1 - Introduction.pdf", "id": "1sxyX50-vTQvanGPEWhq-khqlHlMy_Mzo" }
-                        ]
-                    }
+                        {
+                            "files": [
+                                { "name": "Aula 5 - Mass Balances.pdf", "id": "12bDcPchmgqa00YmIAe3tPj68gitfJGcr" },
+                                { "name": "Aula 4B - Bioengineering Variables.pdf", "id": "1uhCmQvJK0Pl-FinT3c__K-qPa61MaAcn" },
+                                { "name": "Aula 4A - Bioprocesses.pdf", "id": "15ezDvc4OVfZOZ6yvM40zCUSQyjpd5yH7" },
+                                { "name": "Aula 2 - Introduction.pdf", "id": "1FkfOXiZtHutDaO0safMW7kMpuOidzkjo" },
+                                { "name": "Aula 3 - Engeneering Calculations.pdf", "id": "1jMhp8Ax9dp2NbTS1-xnmt3hiQZJn1Gx0" },
+                                { "name": "Aula 1 - Introduction.pdf", "id": "1sxyX50-vTQvanGPEWhq-khqlHlMy_Mzo" }
+                            ]
+                        }
+                    ]
                 }],
                 "Material Extra": {
                     "folder": {
@@ -162,8 +170,6 @@
                                 { "name": "Problemas 2", "id": "1fOgkAl2VWKnQpbwQknK-o4rWNcJzSEza" },
                                 { "name": "Problemas 1 + Resolução", "id": "1gqC4mLDgUL_IZpIcJ9qRMcLhIKl8ceoR" },
                                 { "name": "Problemas 1", "id": "169C8xE-4ZezNjQ_f6CQY9LKmPcQeL8NX" }
-
-
                             ]
                         }
                     },
@@ -179,7 +185,6 @@
                             ]
                         }
                     }
-
 
                 ],
                 "Material Extra": {}
