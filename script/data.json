@@ -3,10 +3,27 @@
         "1º Semestre": {
             "Álgebra Linear": {
                 "Avaliação Contínua": {},
-                "Exames": {},
+                "Exames": {
+                    "files": [
+                        { "name": "AL - 2021-2022 Exame Recurso + Resolução.pdf", "id": "1ZFaUIekVsokyUsdcG0zFZhe5LDhkEeuB" },
+                        { "name": "AL - 2021-2022 Exame + Resolução.pdf", "id": "1KIDJXdY1mrMZNAUB4dv9JH9dtlmv3UgN" },
+                        { "name": "AL - 2021-2022 Exame 3.zip", "id": "1O-z6LvYqHCmkucSFxOAFEpTaS7UFIiRH" },
+                        { "name": "AL - 2021-2022 Exame 2.zip", "id": "1In23Fs5VaZSRfu1JCnbCWiXEBq7284TC" },
+                        { "name": "AL - 2021-2022 Exame 1.zip", "id": "1UPPE_cYV7jpvluSp5Ko_lRQKGUj66n-B" }
+                    ]
+                },
                 "Material do Aluno": {},
                 "Material do Professor": {},
-                "Material Extra": {}
+                "Material Extra": {
+                    "folder": {
+                        "name": "Livros",
+
+                        "files": [
+                            { "name": "Linear Algebra and Its Applications Solutions.pdf", "id": "1TdEg__uWyA7k3tti_f72FUFlYvdOWZKA" },
+                            { "name": "Linear Algebra and Its Applications by David C. Lay, Steven R. Lay, Judi J. McDonald (z-lib.org).pdf", "id": "1ld-4Ab00VN4zQv1Uh_wagE5W6NSrxDXP" }
+                        ]
+                    }
+                }
             },
             "Cálculo Diferencial e Integral I": {
                 "Avaliação Contínua": {},
@@ -70,8 +87,8 @@
             "Fundamentos de Química Orgânica": {
                 "Avaliação Contínua": {
                     "files": [
-                        { "name": "FQO - 2021-2022 MAP3.pdf", "id": "1GNuOW2crWdKlv4lSa0WdMerAiUCNCvFU" },
                         { "name": "FQO - 2021-2022 MAP3 + Resolução.pdf", "id": "12-hSVKKnAvh4J9nk1J48d6zIlpLPjCc_" },
+                        { "name": "FQO - 2021-2022 MAP3.pdf", "id": "1GNuOW2crWdKlv4lSa0WdMerAiUCNCvFU" },
                         { "name": "FQO - 2021-2022 MAP2 + Resolução.pdf", "id": "1KWWhnx2Z84QQIpzFBb_dQs_0fB4JT3lV" },
                         { "name": "FQO - 2021-2022 MAP2.pdf", "id": "1Vbjlo_HnHGneslrCVNcWNMHeDuLrUkgw" },
                         { "name": "FQO - 2021-2022 MAP1 + Resolução.pdf", "id": "1sEHjoz777IeIThOS2RNtyAiuBMGsx1aJ" },
@@ -85,29 +102,43 @@
                     ]
                 },
                 "Material do Aluno": {},
-                "Material do Professor": {
-                    "folder": {
-                        "name": "FQO - 2021-2022 Problemas (Prof. João Paulo Telo)",
+                "Material do Professor": [{
                         "folder": {
-                            "name": "Folder Teste",
+                            "name": "FQO - 2021-2022 Problemas (Prof. João Paulo Telo)",
+
                             "files": [
-                                { "name": "File Teste", "id": "blablabla" }
+                                { "name": "Problemas 3 + Resolução", "id": "1S9q2nl2021xaam3b7nQ9JcAX58rdQ0B_" },
+                                { "name": "Problemas 3", "id": "1oed-7rjFikjR-svqTQoQRHIgwGR7Xphh" },
+                                { "name": "Problemas 2 + Resolução", "id": "1ZugKPJFzwW6VKKstXi8uHeb48RXu-GOZ" },
+                                { "name": "Problemas 2", "id": "1fOgkAl2VWKnQpbwQknK-o4rWNcJzSEza" },
+                                { "name": "Problemas 1 + Resolução", "id": "1gqC4mLDgUL_IZpIcJ9qRMcLhIKl8ceoR" },
+                                { "name": "Problemas 1", "id": "169C8xE-4ZezNjQ_f6CQY9LKmPcQeL8NX" }
+
+
                             ]
-                        },
-                        "files": [
-                            { "name": "Problemas 1", "id": "169C8xE-4ZezNjQ_f6CQY9LKmPcQeL8NX" },
-                            { "name": "Problemas 3 + Resolução", "id": "1S9q2nl2021xaam3b7nQ9JcAX58rdQ0B_" },
-                            { "name": "Problemas 2 + Resolução", "id": "1ZugKPJFzwW6VKKstXi8uHeb48RXu-GOZ" },
-                            { "name": "Problemas 2", "id": "1fOgkAl2VWKnQpbwQknK-o4rWNcJzSEza" },
-                            { "name": "Problemas 1 + Resolução", "id": "1gqC4mLDgUL_IZpIcJ9qRMcLhIKl8ceoR" },
-                            { "name": "Problemas 3 + Resolução", "id": "1oed-7rjFikjR-svqTQoQRHIgwGR7Xphh" }
-                        ]
+                        }
+                    },
+                    {
+                        "folder": {
+                            "name": "FQO - 2021-2022 Slides (Prof. João Paulo Telo)",
+
+                            "files": [
+                                { "name": "Aromáticos.pdf", "id": "1Dc8yakr0fsv3D4UWvg_5KsCdZQ3FTei0" },
+                                { "name": "Aldeídos e Cetonas.pdf", "id": "1j_-Eqd_SeuWx8wl6BudhrFtXCA3i5cmx" },
+                                { "name": "Ácidos carboxílicos e derivados.pdf", "id": "1tUIt5RrG8KIwcF12yrzr3jObDa5dctdO" }
+                            ]
+                        }
                     }
-                },
+                ],
                 "Material Extra": {}
+            },
+            "HASS": {
+
             }
+
         }
     },
+
 
 
 
