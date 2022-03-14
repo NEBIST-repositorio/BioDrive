@@ -2,8 +2,8 @@
     "1º Ano": {
         "1º Semestre": {
             "Álgebra Linear": {
-                "Avaliação Contínua": {},
-                "Exames": {
+                "Avaliação Contínua": [],
+                "Exames": [{
                     "files": [
                         { "name": "AL - 2021-2022 Exame Recurso + Resolução.pdf", "id": "1ZFaUIekVsokyUsdcG0zFZhe5LDhkEeuB" },
                         { "name": "AL - 2021-2022 Exame + Resolução.pdf", "id": "1KIDJXdY1mrMZNAUB4dv9JH9dtlmv3UgN" },
@@ -11,56 +11,57 @@
                         { "name": "AL - 2021-2022 Exame 2.zip", "id": "1In23Fs5VaZSRfu1JCnbCWiXEBq7284TC" },
                         { "name": "AL - 2021-2022 Exame 1.zip", "id": "1UPPE_cYV7jpvluSp5Ko_lRQKGUj66n-B" }
                     ]
-                },
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {
-                    "folder": {
-                        "name": "Livros",
+                }],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": [{
+                    "folder": [
+                        { "name": "Livros" },
+                        {
+                            "files": [
+                                { "name": "Linear Algebra and Its Applications Solutions.pdf", "id": "1TdEg__uWyA7k3tti_f72FUFlYvdOWZKA" },
+                                { "name": "Linear Algebra and Its Applications by David C. Lay, Steven R. Lay, Judi J. McDonald (z-lib.org).pdf", "id": "1ld-4Ab00VN4zQv1Uh_wagE5W6NSrxDXP" }
+                            ]
+                        }
+                    ]
+                }]
+            },
 
-                        "files": [
-                            { "name": "Linear Algebra and Its Applications Solutions.pdf", "id": "1TdEg__uWyA7k3tti_f72FUFlYvdOWZKA" },
-                            { "name": "Linear Algebra and Its Applications by David C. Lay, Steven R. Lay, Judi J. McDonald (z-lib.org).pdf", "id": "1ld-4Ab00VN4zQv1Uh_wagE5W6NSrxDXP" }
-                        ]
-                    }
-                }
-            },
             "Cálculo Diferencial e Integral I": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             },
+
             "Introdução à Bioengenharia": {
-                "Avaliação Contínua": {},
-                "Exames": {
+                "Avaliação Contínua": [],
+                "Exames": [{
                     "files": [
                         { "name": "IBE - 2021-2022  Exame 1 - Soluções.pdf", "id": "1DM9zYoe0tx4WUNwJzxJI7BfhV8DZB3h4" },
                         { "name": "IBE - 2021-2022  Exame 1.pdf", "id": "1VZPpRp3Tf7Q_9rWb4WMq2PWgwjK0_SxB" }
                     ]
-                },
-                "Material do Aluno": {},
+                }],
+                "Material do Aluno": [],
                 "Material do Professor": [{
                     "folder": [
                         { "name": "IBE - 2021-2022 Exercícios (Prof. Miguel Prazeres)" },
-
                         {
                             "files": [
-                                { "name": "1. Introduction.pdf", "id": "1VTRUsYo4RBeTWQNFtH0lEhLKhLWAtWLO" },
-                                { "name": "2. Engineering Calculations.pdf", "id": "1xdfJa85_uY9ce3TuS2jOTrYllDp6xKM4" },
-                                { "name": "3. Bioprocess and Process variables.pdf", "id": "19z8CDx-oLMdwWXqE4IgMZIokUgWe3Kw6" },
-                                { "name": "4. Mass Balances.pdf", "id": "1CGcY-EMnce6YYSXXokyqKiMgUhrmJWdo" },
                                 { "name": "Resoluções IBE.pdf", "id": "1aYGsp_gOgOS61uA7avnYaAFl9zK-Mcb5" },
+                                { "name": "4. Mass Balances.pdf", "id": "1CGcY-EMnce6YYSXXokyqKiMgUhrmJWdo" },
+                                { "name": "3. Bioprocess and Process variables.pdf", "id": "19z8CDx-oLMdwWXqE4IgMZIokUgWe3Kw6" },
+                                { "name": "2. Engineering Calculations.pdf", "id": "1xdfJa85_uY9ce3TuS2jOTrYllDp6xKM4" },
+                                { "name": "1. Introduction.pdf", "id": "1VTRUsYo4RBeTWQNFtH0lEhLKhLWAtWLO" },
                                 { "name": "Unit Conversion Tables.pdf", "id": "17miBxR-tHd0zSLkz0iyxDIEtQTclCITs" }
+
                             ]
                         }
                     ]
                 }, {
-                    "folder": [{
-                            "name": "IBE - 2021-2022 Fichas Excel (Prof. Gabriel Costa)"
-                        },
-
+                    "folder": [
+                        { "name": "IBE - 2021-2022 Fichas Excel (Prof. Gabriel Costa)" },
                         {
                             "files": [
                                 { "name": "Excel Homework 5.pdf", "id": "1eUy-E0lYr-5zNwQBBb09mJkUVm4JYkiK" },
@@ -72,10 +73,8 @@
                         }
                     ]
                 }, {
-                    "folder": [{
-                            "name": "IBE - 2021-2022 Slides Teóricos (Pofs. Cláudia Silva e Miguel Prazeres)"
-                        },
-
+                    "folder": [
+                        { "name": "IBE - 2021-2022 Slides Teóricos (Pofs. Cláudia Silva e Miguel Prazeres)" },
                         {
                             "files": [
                                 { "name": "Aula 5 - Mass Balances.pdf", "id": "12bDcPchmgqa00YmIAe3tPj68gitfJGcr" },
@@ -88,106 +87,201 @@
                         }
                     ]
                 }],
-                "Material Extra": {
-                    "folder": {
-                        "name": "Livros",
+                "Material Extra": [
+                    [{
+                        "folder": [
+                            { "name": "Livros" },
+                            {
+                                "files": [
+                                    { "name": "Sugestão de Leitura_Intro to Emerging Areas in Bioengineering.pdf", "id": "1Pa5aJxltNiKUIItrF-56Y2LFrE-pFMdW" }
+                                ]
+                            }
+                        ]
+                    }]
+                ]
+            },
 
-                        "files": [{ "name": "Sugestão de Leitura_Intro to Emerging Areas in Bioengineering.pdf", "id": "1Pa5aJxltNiKUIItrF-56Y2LFrE-pFMdW" }]
-                    }
-                }
-            },
             "Introdução às Ciências Biológicas": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             },
+
             "Química": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [{
+                    "files": [
+                        { "name": "QUI - 2021-2022 MAP T4Ab.pdf", "id": "1QRYLkM17nBN4Ql42nZPtFTggthSOr8TY" },
+                        { "name": "QUI - 2021-2022 MAP T4Aa.pdf", "id": "1vfqG_ciRx_h5cRT9BhYAc-jg5pHV7owc" },
+                        { "name": "QUI - 2021-2022 MAP T3Ab.pdf", "id": "12s0DgPHPWGk-O4E4rON7LUvJMN0btDu-" },
+                        { "name": "QUI - 2021-2022 MAP T3Aa.pdf", "id": "13PMsn4w5d0wNLu5ylyD1Z1BRMG2SCkrw" },
+                        { "name": "QUI - 2021-2022 MAP 3b.pdf", "id": "1fbcnC0voIhbm_vwOVWLGJVJ1lmbTWC47" },
+                        { "name": "QUI - 2021-2022 MAP 3a.pdf", "id": "1zgKBY36RRwEkFEH0_KfC0dXa3r5ivOWw" },
+                        { "name": "QUI - 2021-2022 MAP T2Cb.pdf", "id": "181kZvRYH187axKj2Jpd0iNcETbtcpk9Z" },
+                        { "name": "QUI - 2021-2022 MAP T2Ca.pdf", "id": "16UuOp94gCRyGtVEgT7N6_If2XA9-NJ4a" },
+                        { "name": "QUI - 2021-2022 MAP T0b.pdf", "id": "1_T0xvnlhHxdSOgMAmIWyCCwit1_hrwzJ" },
+                        { "name": "QUI - 2021-2022 MAP T0a.pdf", "id": "1ndW5YRrbTBZLquDcRRh2CTP17biKS1fK" },
+                        { "name": "QUI - 2021-2022 MAP 2b.pdf", "id": "112vsnm3MXkT4vNUYM9OlgNovQkWQLcCi" },
+                        { "name": "QUI - 2021-2022 MAP 2a.pdf", "id": "1MqBccY1SlFDGwMTVbl0C5GHjZF5CPIAp" },
+                        { "name": "QUI - 2021-2022 MAP 1b.pdf", "id": "1uJ4hQlylG6FuNaMYJAoA3s3HpYI-GCoI" },
+                        { "name": "QUI - 2021-2022 MAP 1a.pdf", "id": "1U04DljLtpqI7uqsGjurBTrGXLhNl1Cu6" }
+                    ]
+                }],
+                "Exames": [{
+                    "files": [
+                        { "name": "QUI - 2021-2022 Exame 2 + Resolução.pdf", "id": "18gZ9jYjgbiSPhgAgdpWQ-u3NbO-9ckNl" },
+                        { "name": "QUI - 2021-2022 Exame 2.pdf", "id": "19ifa2SA8OorKRKCa4BbUEzjT1CvLeU_0" },
+                        { "name": "QUI - 2021-2022 Exame 1 - Resolução.pdf", "id": "1yUUBwKfvtSBnbEqRkAglTyv3Vryr-9KV" },
+                        { "name": "QUI - 2021-2022 Exame 1.pdf", "id": "1DqPZFRMlWbaIRNygQa5-aPiZZRChb6Oc" }
+                    ]
+                }],
+                "Material do Aluno": [],
+                "Material do Professor": [{
+                    "folder": [
+                        { "name": "QUI - 2021-2022 Fichas de Exercícios (Prof. Fátima Silva)" },
+                        {
+                            "files": [
+                                { "name": "1. Ficha Termodinâmica.pdf", "id": "18nveYGTkmhw-yXpyOZtteECP1SHfCoDI" },
+                                { "name": "4. Ficha Cinetica.pdf", "id": "1ElQ_bHOgKfuYUgOOzX4_wr7U3dy5QIOz" },
+                                { "name": "2. Ficha Ácido-Base.pdf", "id": "1Y3iRkKc-51GOX5q2615eUkd3tXObD6BH" },
+                                { "name": "3. Ficha Solubilidade.pdf", "id": "18FBxO813dNaNra8MCIdapd2uw9CXmumI" }
+                            ]
+                        }
+                    ]
+                }, {
+                    "folder": [
+                        { "name": "QUI - 2021-2022 Slides Teóricos (Prof. Fátima Silva)" },
+                        {
+                            "files": [
+                                { "name": "Aula 12.pdf", "id": "1FI1D193X9xrQbDRXh0C0vfNbGwSMnrvK" },
+                                { "name": "Aula 11.pdf", "id": "1EVdW39ip8zSuY9cXBzUBDJJjZoldHYLU" },
+                                { "name": "Aula 10.pdf", "id": "1YE9EviYDJz5ARGDrDVedyVSjXkz2vte-" },
+                                { "name": "Aula 9.pdf", "id": "1rCUMN_H2Tns1ZrlQ0RiOn2OeNncPnnPa" },
+                                { "name": "Aula 8.pdf", "id": "1-4ZKEPG1LX0cSDFvj8gjXIX0nlEgsxxx" },
+                                { "name": "Aula 7.pdf", "id": "1jckGo_0O0U2s3M58poaVYdpq_XxxsemP" },
+                                { "name": "Aula 6.pdf", "id": "1kyW_Bxb5iYSjHIsO3Ab5EACX0ziG8H--" },
+                                { "name": "Aula 5.pdf", "id": "1g83XiT4sUKxtOau1_nEFfHZskEVof7fy" },
+                                { "name": "Aula 4.pdf", "id": "1M4j23_ipGm1KrXyIJRnneg7L841AcmCD" },
+                                { "name": "Aula 3.pdf", "id": "1mCNWZtuZjCJbXqe55mwtPZqsr2Frtp0B" },
+                                { "name": "Aula 2.pdf", "id": "199lHU3LwNl43fHY-lYJsz4062O1yQN5B" },
+                                { "name": "Aula 1.pdf", "id": "1CuoU2r18iBChib1_h0ZGy6jCzjblFeo5" }
+                            ]
+                        }
+                    ]
+                }],
+                "Material Extra": [{
+                    "folder": [
+                        { "name": "QUI - 2021-2022 Resolução Guia de Problemas" },
+                        {
+                            "files": [
+                                { "name": "Ácido-Base.pdf", "id": "1wExQM565MemaFjUTWDyKNpT2heChygIX" },
+                                { "name": "Termodinâmica.pdf", "id": "1CbH55cPfUimQjDX94596hW6TwIU7sYWX" },
+                                { "name": "Corrosão.pdf", "id": "14E0KjhUHDq4ayuhxwl8hN4DN53BRh9BA" }
+                            ]
+                        }
+                    ]
+                }]
             },
+
             "Tópicos de Bioengenharia": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [{
+                    "folder": [
+                        { "name": "TBE -2021-2022 - Slides Teóricos" },
+                        {
+                            "files": [
+                                { "name": "Aula 10.pdf", "id": "1gokt07vmfl79XGioClDFMoSLltkozL6U" },
+                                { "name": "Aula 9.pdf", "id": "1sGw5ZxnDpP0TA8JD34-fGR1q_1FcSiod" },
+                                { "name": "Aula 7-8.pdf", "id": "1igmlLVCGik_IEbaVXMpfFohcGX-xxp4h" },
+                                { "name": "Aula 6.pdf", "id": "1PFbDShhzZwq39BbQxnGPsMSRI75nYexg" },
+                                { "name": "Aula 5.pdf", "id": "1Xux5sXXPWFcvXnsEJPvRWI3TAYZRlC-a" },
+                                { "name": "Aula 4.pdf", "id": "19k7ioc4IMjfCfhJOWOXG-FWZ5DnkRioh" },
+                                { "name": "Aula 3.pdf", "id": "1LGDROhSPKzdIJuzK3EcXoYXGIdCBzsPK" },
+                                { "name": "Aula 2.pdf", "id": "12FXzvgEVASFo7lrKXvVrulovrN1-5r9x" },
+                                { "name": "Aula 1.pdf", "id": "1mX3NDD-GO-8nvDnqV07s4PN2meTAYt9_" }
+                            ]
+                        }
+                    ]
+                }],
+                "Material Extra": []
             }
+
         },
+
 
         "2º Semestre": {
             "Bioquímica e Biologia Molecular da Célula": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             },
+
             "Cálculo Diferencial e Integral II": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             },
+
             "Computação e Programação": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             },
+
             "Fundamentos de Química Orgânica": {
-                "Avaliação Contínua": {
+                "Avaliação Contínua": [{
                     "files": [
-                        { "name": "FQO - 2021-2022 MAP3 + Resolução.pdf", "id": "12-hSVKKnAvh4J9nk1J48d6zIlpLPjCc_" },
                         { "name": "FQO - 2021-2022 MAP3.pdf", "id": "1GNuOW2crWdKlv4lSa0WdMerAiUCNCvFU" },
+                        { "name": "FQO - 2021-2022 MAP3 + Resolução.pdf", "id": "12-hSVKKnAvh4J9nk1J48d6zIlpLPjCc_" },
                         { "name": "FQO - 2021-2022 MAP2 + Resolução.pdf", "id": "1KWWhnx2Z84QQIpzFBb_dQs_0fB4JT3lV" },
                         { "name": "FQO - 2021-2022 MAP2.pdf", "id": "1Vbjlo_HnHGneslrCVNcWNMHeDuLrUkgw" },
                         { "name": "FQO - 2021-2022 MAP1 + Resolução.pdf", "id": "1sEHjoz777IeIThOS2RNtyAiuBMGsx1aJ" },
                         { "name": "FQO - 2021-2022 MAP1.pdf", "id": "1wg-t4shIHM_zFhN_ovDtSExvvmUu6lpN" }
                     ]
-                },
-                "Exames": {
+                }],
+                "Exames": [{
                     "files": [
                         { "name": "FQO - 2021-2022 Exame 1 + Resolução.pdf", "id": "1O_1eYeDnJpj9zKotmvfaSGGd31doWsUw" },
                         { "name": "FQO - 2021-2022 Exame 1.pdf", "id": "1CGvIJ921FXEVU37TEb1V-DZ1dez5r6x-" }
                     ]
-                },
-                "Material do Aluno": {},
+                }],
+                "Material do Aluno": [],
                 "Material do Professor": [{
-                        "folder": {
-                            "name": "FQO - 2021-2022 Problemas (Prof. João Paulo Telo)",
-
+                    "folder": [
+                        { "name": "FQO - 2021-2022 Problemas (Prof. João Paulo Telo)" },
+                        {
                             "files": [
-                                { "name": "Problemas 3 + Resolução", "id": "1S9q2nl2021xaam3b7nQ9JcAX58rdQ0B_" },
-                                { "name": "Problemas 3", "id": "1oed-7rjFikjR-svqTQoQRHIgwGR7Xphh" },
-                                { "name": "Problemas 2 + Resolução", "id": "1ZugKPJFzwW6VKKstXi8uHeb48RXu-GOZ" },
-                                { "name": "Problemas 2", "id": "1fOgkAl2VWKnQpbwQknK-o4rWNcJzSEza" },
-                                { "name": "Problemas 1 + Resolução", "id": "1gqC4mLDgUL_IZpIcJ9qRMcLhIKl8ceoR" },
-                                { "name": "Problemas 1", "id": "169C8xE-4ZezNjQ_f6CQY9LKmPcQeL8NX" }
+                                { "name": "Problemas 3 + Resolução.pdf", "id": "1S9q2nl2021xaam3b7nQ9JcAX58rdQ0B_" },
+                                { "name": "Problemas 3.pdf", "id": "1oed-7rjFikjR-svqTQoQRHIgwGR7Xphh" },
+                                { "name": "Problemas 2 + Resolução.pdf", "id": "1ZugKPJFzwW6VKKstXi8uHeb48RXu-GOZ" },
+                                { "name": "Problemas 2.pdf", "id": "1fOgkAl2VWKnQpbwQknK-o4rWNcJzSEza" },
+                                { "name": "Problemas 1 + Resolução.pdf", "id": "1gqC4mLDgUL_IZpIcJ9qRMcLhIKl8ceoR" },
+                                { "name": "Problemas 1.pdf", "id": "169C8xE-4ZezNjQ_f6CQY9LKmPcQeL8NX" }
                             ]
                         }
-                    },
-
-                    {
-                        "folder": {
-                            "name": "FQO - 2021-2022 Slides (Prof. João Paulo Telo)",
-
+                    ]
+                }, {
+                    "folder": [
+                        { "name": "FQO - 2021-2022 Slides (Prof. João Paulo Telo)" },
+                        {
                             "files": [
                                 { "name": "Aromáticos.pdf", "id": "1Dc8yakr0fsv3D4UWvg_5KsCdZQ3FTei0" },
                                 { "name": "Aldeídos e Cetonas.pdf", "id": "1j_-Eqd_SeuWx8wl6BudhrFtXCA3i5cmx" },
                                 { "name": "Ácidos carboxílicos e derivados.pdf", "id": "1tUIt5RrG8KIwcF12yrzr3jObDa5dctdO" }
                             ]
                         }
-                    }
-
-                ],
-                "Material Extra": {}
+                    ]
+                }],
+                "Material Extra": []
             },
 
             "HASS": {
@@ -205,77 +299,287 @@
     "2º Ano": {
         "1º Semestre": {
             "Algoritmos e Modelação Computacional": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [{
+                    "folder": [
+                        { "name": "AMC - 2021-2022 Slides (Prof. Paulo Mateus)" },
+                        {
+                            "files": [
+                                { "name": "Aula3.pdf", "id": "1YBsCQia4_8AH5E5GIk_Tq-kQwHZgtZid" },
+                                { "name": "Aula2.pdf", "id": "12CdNKm-9gvLwEp6P8Ciz4WMWIYjIPCSF" },
+                                { "name": "Aula1.pdf", "id": "17ksvGl_gDRq2TVi8174JCfp5T3vJcMAc" },
+                                { "name": "Slides9.pdf", "id": "16h77E67su_LOd4Cm6YlX85w2R-7GrRfx" },
+                                { "name": "Slides7.pdf", "id": "12rFlwGWS1xFQK5YAjhyh6hNg6OquaL6a" },
+                                { "name": "Slides8.pdf", "id": "1XMYFMiz60ISZelheSHcL0nqprxaj_qge" },
+                                { "name": "Slides6.pdf", "id": "1BztPv5LnL00rpd1Aj1yK9NrScMr7YbPG" },
+                                { "name": "Slides5.pdf", "id": "1z-OYqC1jpayYI07gSGRZU18XTHSqZ4wt" },
+                                { "name": "Slides4.pdf", "id": "1XDxct_rda7KtwlZsmiazTrMgIHhk6xNA" },
+                                { "name": "Slides3.pdf", "id": "1S8pJ4ICZMbsZ2L3G4kAZ06nlFdL80yKx" },
+                                { "name": "Slides2.pdf", "id": "1EnveJ4JyvGQjMePguHr6zaZ7vh7NV9wL" },
+                                { "name": "Slides1.pdf", "id": "1jZfje8TGUj5_EFPCb6G3b9s4vY5RSXYI" }
+                            ]
+                        }
+                    ]
+                }, {
+                    "folder": [
+                        { "name": "AMC - 2021-2022 Aulas Laboratoriais" },
+                        {
+                            "files": [
+
+                            ]
+                        },
+                        {
+                            "folder": [
+                                { "name": "Enunciados" },
+                                {
+                                    "files": [
+                                        { "name": "p6.pdf", "id": "1BORtAkHpnC4597XN-UWtD3IOmomqCUSn" },
+                                        { "name": "p8.pdf", "id": "1Es4wdfWOPdI31J1N1lxMpNJManxZC1Tn" },
+                                        { "name": "p7.pdf", "id": "10jdcvjbuLId7npvioXs35dPjhY7rRBf6" },
+                                        { "name": "p5.pdf", "id": "1KNaYVmqCzIMmYNcwNc5b2jOY79W7iC-z" },
+                                        { "name": "p4.pdf", "id": "1Gage3Y9oEpoVpyQkfnD0u4LDu604mXwc" },
+                                        { "name": "p3.pdf", "id": "1_SsWupP2GHYKTgxfD059M7EdRx7JWv50" },
+                                        { "name": "p2.pdf", "id": "1tvN_hU-ovJR0gttcU8FU59K_CsAwlOD-" },
+                                        { "name": "p1.pdf", "id": "1-R2_OeHImTRsV_f560ybMApnnxjYF20n" }
+                                    ]
+                                }
+                            ]
+                        }, {
+                            "folder": [
+                                { "name": "Resoluções-Implementações" },
+                                {
+                                    "files": [
+                                        { "name": "Aula8.zip", "id": "1zuDre595OEdasc59YWG-BvNqNvLXJFpr" },
+                                        { "name": "Aula7.zip", "id": "16Cjyy-obwgbmVsxkmXA-CeKxSM6LVDe1" },
+                                        { "name": "Aula6.zip", "id": "1SDX8rEEkNuA8P6aIRLtVSuDdtRj7FGRr" },
+                                        { "name": "Graph.java", "id": "1AVtDgo8x6s8PzxJeOfZNi7ATKm-kPpgn" },
+                                        { "name": "Aula5.zip", "id": "11XB8x6NXNE_YPMBotKzy3akUk-Tauci4" },
+                                        { "name": "Aula2.zip", "id": "1RBrb5oYjp-il5pGyfw1sgQHNSMfjx5Xq" },
+                                        { "name": "Aula4.zip", "id": "1QlI40BaTywJSqZ_Tr3Z7pYM_DoA9v8zJ" },
+                                        { "name": "Aula3.zip", "id": "1ipSfaYTF-22CpCyTI9VJRqa0Nd-dDfxb" },
+                                        { "name": "BinaryTree.java", "id": "1chARXeIGvtErGawoLgZVmIXCcda8-S9y" },
+                                        { "name": "List.java", "id": "1AT_R1QR0CtbGq8HdO8n5IV3iXimteFQd" },
+                                        { "name": "Aula2.java", "id": "1P6Nf_h_vvqTr-9GxD0WVpskY3vG9_RsY" },
+                                        { "name": "Aula1.java", "id": "1wNimekksiwOtlW3qeXeszqeXRIz7B2m3" }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }],
+                "Material Extra": []
             },
+
             "Cálculo Diferencial e Integral III": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [{
+                    "files": [
+                        { "name": "CDI III - 2021-2022 Teste 3 Turnos 2 e 3.pdf", "id": "1uMY01AVZrr4AlJxSq-N7AgndnBNV4qI2" },
+                        { "name": "CDI III - 2021-2022 Teste 3 Turno 1 - Resolução.pdf", "id": "17K0XYCLjT-8dhXrOpuW1g7E1E4RKyMDF" },
+                        { "name": "CDI III - 2021-2022 Teste 3 Turno 1.pdf", "id": "1gl8ecK9p6z7tvbq92s8Mj-Ui1yFOW6jr" },
+                        { "name": "CDI III - 2021-2022 Teste 3 Turnos 2 e 3 - Resolução.pdf", "id": "109Pu1ANEpm2yUTyVi265BO4Erim6rZ1M" },
+                        { "name": "CDI III - 2021-2022 Teste 2 Turnos 2 e 3 - Resolução.pdf", "id": "1kBbKlplS2ZvYymTYPRhm-DyNOdopFXM6" },
+                        { "name": "CDI III - 2021-2022 Teste 2 Turnos 2 e 3.pdf", "id": "18Z3QRO2CjWV07aBYbhReqn-SVAYikm38" },
+                        { "name": "CDI III - 2021-2022 Teste 2 Turno 1 - Resolução.pdf", "id": "1tvMl2S-YQGsRXupweavIdTt8BeodbwNA" },
+                        { "name": "CDI III - 2021-2022 Teste 2 Turno 1.pdf", "id": "1ez_GDDJQ48sjUYtmuHv-oAunfuYSW3hX" },
+                        { "name": "CDI III - 2021-2022 Teste 1 Turnos 2 e 3 - Resolução.pdf", "id": "1VpELI4X1I2PBkQ_aVMWb5MAsS2lBz2JT" },
+                        { "name": "CDI III - 2021-2022 Teste 1 Turno 1 - Resolução.pdf", "id": "1nb5ejtNymhCxdfnHAq4nPCz82NB2PRR0" },
+                        { "name": "CDI III - 2021-2022 Teste 1 Turnos 2 e 3.pdf", "id": "13quqfKCS2n5Rpy_Iambj9lG-j44QTybt" },
+                        { "name": "CDI III - 2021-2022 Teste 1 Turno 1.pdf", "id": "13q-QmlQ7Jud356qKyY7aoMd1kVglgzlO" }
+                    ]
+                }],
+                "Exames": [{
+                    "files": [
+                        { "name": "CDI III - 2021-2022 Exame 1A.pdf", "id": "1JKmLkPiu_O_dyn-2ccczwjL7X2vuS0M-" },
+                        { "name": "CDI III - 2021-2022 Exame 2B - Resolução.pdf", "id": "1gYdgmkPXlEXqdn35O88sCfPn4Vz2Jj1_" },
+                        { "name": "CDI III - 2021-2022 Exame 2B.pdf", "id": "1sVoGNQUZNUHb2Merr7z1yNTS-gTSgY8V" },
+                        { "name": "CDI III - 2021-2022 Exame 2A - Resolução.pdf", "id": "1Y7wBtuSOEyo05SGTYeZJTUeJEBqgHyIE" },
+                        { "name": "CDI III - 2021-2022 Exame 2A.pdf", "id": "1cwJ3uhJ8hCYqmb2WIB1Z6GQKM9LYTRru" },
+                        { "name": "CDI III - 2021-2022 Exame 1B - Resolução.pdf", "id": "1qHIVxhtvwKnD-s0Hz6GSFX4qehw8Co7V" },
+                        { "name": "CDI III - 2021-2022 Exame 1B.pdf", "id": "1N_4_SxvirDjIxZA3HZal5En41-G7PszA" },
+                        { "name": "CDI III - 2021-2022 Exame 1A - Resolução.pdf", "id": "1fJWkbwnt4Z3jjRdWAzGZum7N4LtRuWZJ" }
+                    ]
+                }],
+                "Material do Aluno": [{
+                    "folder": [
+                        { "name": "CDI-III - 2021-2022 Resoluções das Séries de Exercícios (Henrique Alves)" },
+                        {
+                            "files": [
+                                { "name": "Série 11 (Extra).pdf", "id": "1hD1HAYuXSTNcXgbORa216GGxSgFjeDhD" },
+                                { "name": "Série 10.pdf", "id": "1N4w72GoAaJeJ9sWcw8rU4tfHdoL_67w8" },
+                                { "name": "Série 9.pdf", "id": "1BNP3dw8TR8P6g54xsMEHgU--ZUXVdegw" },
+                                { "name": "Série 8.pdf", "id": "1Q5WFdHFsvdzxZPPS_iCotc5en_6QySIi" },
+                                { "name": "Série 7.pdf", "id": "129bgG2VO3Ot7KJN16RPA4W2Ujp8WNS7_" },
+                                { "name": "Série 6.pdf", "id": "1wKWH9_fVvfsSC7RqUvZOjq1wtg_pU2p6" },
+                                { "name": "Série 5.pdf", "id": "1orlL1viNl_WnNheuNj8wD0wYGKooiI83" },
+                                { "name": "Série 4.pdf", "id": "1rsnOGZwicpQpnxSu1MrHfLsKYSrRNa5o" },
+                                { "name": "Série 3.pdf", "id": "1ztZsjXPaMrp8VApQIR7YXidZ0_zdbQag" },
+                                { "name": "Série 2.pdf", "id": "1ut_T0QGyjkvjEgoUkHI4AKjPReOJT6K0" },
+                                { "name": "Série 1.pdf", "id": "1oXgRyLKWYhs0_p3ZhJP8nGultjpQIrQo" }
+                            ]
+                        }
+                    ]
+                }],
+                "Material do Professor": [{
+                    "files": [{ "name": "CDI III - 2021-2022 Séries de exercícios (Prof. Luís Barreira).pdf", "id": "1OS-OPqMhiGpaI5HzdLznwUMLrmxeAbw1" },
+                        { "name": "CDI III - 2021-2022 Transformada de Laplace (Prof. Luís Barreira).pdf", "id": "1LIALT422EPLadqcJhz6AAV1O-pKyWTvB" },
+                        { "name": "CDI III - 2021-2022 Minitestes resolvidos (Prof. Luís Barreira).pdf", "id": "1pB7cbCOlgQsMWkECEys7O7P0GsW9X1ye" },
+                        { "name": "CDI III - 2021-2022 Testes resolvidos (Prof. Luís Barreira).pdf", "id": "1k8Bj2ddBYHlLId3h8T5OyyS790OEUAEK" }
+                    ]
+                }],
+                "Material Extra": []
             },
+
             "Física I": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [{
+                    "files": [
+                        { "name": "Fis-I - 2021-2022 Teste 2 + Resolução.pdf", "id": "1wbaISlqFgAhJO1Cl4mnHaR5cGKrOJ6Sq" },
+                        { "name": "Fis-I - 2021-2022 Teste 1 + Resolução.pdf", "id": "1cI-qXVgSqK2rJHvOLo_zlw4-Yh5wULPE" }
+                    ]
+                }],
+                "Exames": [{
+                    "files": [
+                        { "name": "Fis-I - 2021-2022 Exame 2 - Resolução.pdf", "id": "1Ar1p-U42svrhfX56N7C3MXOHu3ri_cTY" },
+                        { "name": "Fis-I - 2021-2022 Exame 1 + Resolução.pdf", "id": "18obZ2QnW3NQo3vR-E6ukhEmruz48Pf2E" }
+                    ]
+                }],
+                "Material do Aluno": [],
+                "Material do Professor": [{
+                    "folder": [
+                        { "name": "Fis-I - 2021-2022 Séries de Exercícios" },
+                        {
+                            "files": [
+                                { "name": "Serie_07.pdf", "id": "1j7fn0IWqfnrZI-MM4oN7vV9bjwNDaiqw" },
+                                { "name": "Serie_06.pdf", "id": "1FHxYECXMUBKg_jv9J2QDVnSiLlzw7LtK" },
+                                { "name": "Serie_05.pdf", "id": "1BwvUmMsxoEzkW-u10adkRjF6JFV1p82-" },
+                                { "name": "Serie_04.pdf", "id": "1mmeXc94k8YqsAtAyHoydG_3MsKurKBLL" },
+                                { "name": "Serie_03.pdf", "id": "1L5LPdCNoOMUUpmaksA4221vO_iwCExrL" },
+                                { "name": "Serie_02.pdf", "id": "1y0jI4SVE5PKQgjQHCil7G0SMKcDF1Qz9" },
+                                { "name": "Serie_01.pdf", "id": "16KJ26br8htNu7_-hB0cfnPIph9AlUic8" }
+                            ]
+                        }
+                    ]
+                }],
+                "Material Extra": []
             },
+
             "Microbiologia": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [{
+                    "files": [
+                        { "name": "MICRO - 2020-2021 Quiz TL4.pdf", "id": "1EtROmrDV2Ib_Hl2v2vmm2p0smPBzgRy5" },
+                        { "name": "MICRO - 2020-2021 Quiz TL3.pdf", "id": "15XVl666gGZjEixWPJeg92f_58b-Xr2_0" },
+                        { "name": "MICRO - 2020-2021 Quiz TL2.pdf", "id": "17lZbJx4WfJtK7h6eDdqA0n1oKlpztZE-" },
+                        { "name": "MICRO - 2020-2021 Quiz TL1.pdf", "id": "1QRpVYDB5yWq_mnex-NsSpGJSg-zjz-cX" }
+                    ]
+                }],
+                "Exames": [{
+                    "files": [
+                        { "name": "Mic - 2021-2022 Exame 1 + Resolução.pdf", "id": "1a71e07oX7savRIo6vX89OJjdsuxMVlyd" },
+                        { "name": "Mic - 2020-2021 Exame 1.pdf", "id": "13ZPDMQCdIquABulMOEQX8aN_DQIUzvq6" }
+                    ]
+                }],
+                "Material do Aluno": [],
+                "Material do Professor": [{
+                    "folder": [
+                        { "name": "Mic - 2021-2022 Exercícios (Prof. Cristina Viegas)" },
+                        {
+                            "files": [
+                                { "name": "Exercícios crescimento microbiano (3A).pdf", "id": "188k7vBQ8nq_LwHi3UqJ-Qd0_fIMb6aG6" },
+                                { "name": "Exercícios crescimento microbiano (3B).pdf", "id": "1k4RUsUzE6Zv96K6fVPrHkymgZT_2VOfE" },
+                                { "name": "Perguntas sobre tópicos 8 e 9.pdf", "id": "1dt9gvWA1coBb8p6Rg55p6J6cFAoqyt9G" },
+                                { "name": "Perguntas sobre tópicos 5 a 7.pdf", "id": "1TeMlUOYuv_DOMJxRo0XTW-BzApvZ_auS" },
+                                { "name": "Perguntas sobre tópicos 1 a 4.pdf", "id": "1PJaj8gk4XUjvv4cYZl7aBHqvPp0AhyMY" }
+                            ]
+                        }
+                    ]
+                }, {
+                    "folder": [
+                        { "name": "Mic - 2021-2022 Slides teóricos (Prof. Cristina Viegas)" },
+                        {
+                            "files": [
+                                { "name": "9. Classificação e identificação de microrganismos.pdf", "id": "1eqD2MxjBSw1a3f6TsIiXcpY_ksbjf_ob" },
+                                { "name": "8. Diversidade metabólica e funcional.pdf", "id": "1BEFUAJoLwR7fETdjCExoZMPggwsBSgGx" },
+                                { "name": "7. Qualidade sanitária da agua e saúde pública.pdf", "id": "1kUz_wzRBf_bueefEnWszZwluGAgViNE_" },
+                                { "name": "6. Microbiologia celular: procariotas e eucarioticos.pdf", "id": "1ZXJZ0hBipUZPxoTs6Emja6QNWRZI7Gue" },
+                                { "name": "5. Técnicas de microscopia.pdf", "id": "1euO3KQvrNMwsT49KZRImEgvhYQsrecqB" },
+                                { "name": "4. Influência condições ambientais no crescimento, biofilmes e extremófilos.pdf", "id": "1nN4rXI-gM1WVOc1D5NKPqSlIRxp9D4-A" },
+                                { "name": "3. Crescimento microbiano.pdf", "id": "1Bcp9cep3hjCIQ8eOF-duzaPOO_zv2kgb" },
+                                { "name": "2. Técnicas básicas microbiologia.pdf", "id": "1dNbA6fr7oz8ihqOmiZdSAR65KiI5QYy4" },
+                                { "name": "1. Introdução microbiologia.pdf", "id": "11Oigp96zvpr7edwFmfn5MG23I_L-SXLw" }
+                            ]
+                        }
+                    ]
+                }, {
+                    "folder": [
+                        { "name": "Mic - 2021-2022 Textos de apoio (Prof. Cristina Viegas)" },
+                        {
+                            "files": [
+                                { "name": "Microbiology-OPenSTAX 2018_A6aAwX6.pdf", "id": "1flWt_qnCVWHgVDXIi0YdKZprSN90_W09" },
+                                { "name": "Cap. Microbiologia_ da agua_qualidade sanitaria_ In Microbiologia_LIDEL.pdf", "id": "1_IvosRlIhNhisoSobsqq-4uo0tkfMS11" },
+                                { "name": "Cap. Microbiologia_ciclos dos elementos_fixacao de N2_ In Microbiologia_LIDEL.pdf", "id": "1stsFpkaPPUJ31iDu_JdfykikQ1q0SctY" },
+                                { "name": "Crescimento microbiano_Maier Pepper& Gerba 2000.pdf", "id": "12fXknLUbHpr1BdklUsBpJdk1DL501PuB" },
+                                { "name": "Manual_Practical Microbiology_Soc Microbiology_2016.pdf", "id": "1JG18r1ssdphTPrSUHMr0SNu-CaUeMCzx" }
+                            ]
+                        }
+                    ]
+                }],
+                "Material Extra": []
             },
+
             "Termodinâmica Química Aplicada": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [{
+                    "files": [
+                        { "name": "TQA - 2021-2022 Exame 1.pdf", "id": "1lznyhitx1tEeBV3O_vgWenuzYcU7AUQk" }
+                    ]
+                }],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             }
         },
 
+
         "2º Semestre": {
             "Fenómenos de Transporte": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             },
+
             "Física II": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             },
+
             "Probabilidade e Estatística": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             },
+
             "Química Bioanalítica": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             },
+
             "Química-Física Aplicada": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             }
         }
     },
@@ -287,154 +591,365 @@
     "3º Ano": {
         "1º Semestre": {
             "Engenharia Enzimática": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [{
+                    "files": [
+                        { "name": "EEnz - 2021-2022 Exame 2 + Soluções.pdf", "id": "1lv2eXxCKK4yBGspCmPHC4OJ5PdPauYDz" },
+                        { "name": "EEnz - 2021-2022 Exame 1 + Soluções.pdf", "id": "1CaaXwheWGPNROc4Wmbq-Q2bQZP50y7Nm" }
+                    ]
+                }],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": [{
+                    "files": [
+                        { "name": "2021-2022 - Dimensionamento de reatores.pdf", "id": "1wgwjYw_Le4pyAzYcdTQQ7kQrx4NvQ3mT" }
+                    ]
+                }]
             },
+
             "Engenharia Genética": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [{
+                    "files": [
+                        { "name": "EGen - 2021-2022 Exame 1 + Resolução.pdf", "id": "1mxAgRLPKIHG5-uEN0WHp8qybqGQR9oJu" }
+                    ]
+                }],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             },
+
             "Fenómenos de Transporte em Sistemas Biológicos": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [{
+                    "files": [
+                        { "name": "FTSB - 2021-2022 HomeWork 4.pdf", "id": "1LzsTljbGqXfjqbx-Zsuivm5yGOMfugX9" },
+                        { "name": "FTSB - 2021-2022 HomeWork 4 + Resolução.pdf", "id": "1Ei3szmcxeKzoWG8zZ_oWVyw1UI8D8KB7" },
+                        { "name": "FTSB - 2021-2022 HomeWork 3.pdf", "id": "1ooCO6AZw-pqTV8sGZ-sRwe2t-X9qfBje" },
+                        { "name": "FTSB - 2021-2022 HomeWork 3 + Resolução.pdf", "id": "1jgMMLfaiSmSVzhex9SGFjKJW9fePUNR7" },
+                        { "name": "FTSB - 2021-2022 HomeWork 2.pdf", "id": "1jByFXZaw3JHmFITujoiSPO0IapS8dCRR" },
+                        { "name": "FTSB - 2021-2022 HomeWork 2 + Resolução.pdf", "id": "15VDD5RvumU5iCrtAUzoIO8AtgO9lG0q-" },
+                        { "name": "FTSB - 2021-2022 HomeWork 1.pdf", "id": "1RQRyctCc5vzoKhMLeL8rbjPoB-3S8mlh" },
+                        { "name": "FTSB - 2021-2022 HomeWork 1 + Resolução.pdf", "id": "1L5_zxdvz_pUNGynINDiTkLZ7UOpE0L2_" },
+                        { "name": "FTSB - 2021-2022 Exame 1 + Resolução.pdf", "id": "1E8VY2WkD4FHnZgt3P_NUhm4V3v8wtd8L" },
+                        { "name": "FTSB - 2021-2022 Exame 1.pdf", "id": "1hmZdxzz6fyV0F4TGDbbOaSO0Um41GJSN" }
+                    ]
+                }],
+                "Exames": [{
+                    "files": [
+                        { "name": "FTSB - 2021-2022 Exame 1 + Resolução.pdf", "id": "1E8VY2WkD4FHnZgt3P_NUhm4V3v8wtd8L" },
+                        { "name": "FTSB - 2021-2022 Exame 1.pdf", "id": "1hmZdxzz6fyV0F4TGDbbOaSO0Um41GJSN" }
+                    ]
+                }],
+                "Material do Aluno": [],
+                "Material do Professor": [{
+                        "files": [
+                            { "name": "FTSB - 2021-2022 Formulário.pdf", "id": "1sy5RXfeP1OkKz4bbRkB-Nf1EQgzWa2OE" }
+                        ]
+                    },
+                    {
+                        "folder": [
+                            { "name": "FTSB - 2021-2022 Problemas (Prof. Duarte Miguel Prazeres)" },
+                            {
+                                "files": [
+                                    { "name": "Problems4-MassTransfer.pdf", "id": "1yYXGFaRalroFBefQ_5w8z0sJGh9JL2-A" },
+                                    { "name": "Problems3 - Heat Transfer.pdf", "id": "1WNkt07KrETmMYFHTAiRwCD7UB4flQzqo" },
+                                    { "name": "Problems2-FluidDynamics.pdf", "id": "1WGKGp2LpE3we5Rla1-hewXGO_ax-IPiZ" },
+                                    { "name": "Problems1-Introduction.pdf", "id": "1AOQ4kgv7nhtriq6RVossvTo0hJJmaVJD" }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "folder": [
+                            { "name": "FTSB - 2021-2022 Slides Teóricos (Prof. Duarte Miguel Prazeres)" },
+                            {
+                                "files": [
+                                    { "name": "13. Mass Transfer 2.pdf", "id": "1QOGAbRqHNjOwaaljAQ_bf3RyZEDSBQrr" },
+                                    { "name": "11. Heat Transfer 3.pdf", "id": "1ApgvB1eZfptlnElfmjlVm1t30E_y873V" },
+                                    { "name": "12. Mass Transfer 1.pdf", "id": "1ThDg00d-1A1pPjDfvge_Dd1m_q_vRELO" },
+                                    { "name": "10. Heat Transfer 2.pdf", "id": "1AdVGB5WAmQ733FpWoHSQTlRi5GJ9im_1" },
+                                    { "name": "9. Heat Transfer 1.pdf", "id": "1xnUUgZ9Bf9bveAGMJlyLsaEFtq3GV7aO" },
+                                    { "name": "8. BioTopic-blood rheology.pdf", "id": "1opas3iUOiPyvy681rHnsJBzWnIsA17iH" },
+                                    { "name": "7. Design Topic 1-modified Bernoulli equation.pdf", "id": "1lnfgEog0kjmmoT144Bds9kHuqjkijl4-" },
+                                    { "name": "EquacoesDiferenciaisDeConservacao.pdf", "id": "1x7goDxnFismsUCKIINLJ6rBZNLMjYNh2" },
+                                    { "name": "6. Fluid Dynamics 3.pdf", "id": "18CUfjV7zDPDKA0btBmQF7OJwHp3b1hD-" },
+                                    { "name": "5. BioTopic-life at low Reynolds.pdf", "id": "1wHW81Qbhr2QTEhOEb-L5pBgu61Utgmes" },
+                                    { "name": "4. Fluid Dynamics 2.pdf", "id": "1EDcZRhG7Ff2tIggMSb2srFb5W9gMkkTR" },
+                                    { "name": "3. Fluid Dynamics 1.pdf", "id": "1yMS5R5ZHvNr4gWAvYGiT6lMk5pbNuab7" },
+                                    { "name": "2. BioTopic-Osmotic pressure.pdf", "id": "1cOFkU1wSdIrH2yxBWKhzJZPG26Xd9lBc" },
+                                    { "name": "1. Introduction.pdf", "id": "1PXeOLPaYBiaccgER1QEufiMSeB_ohQ_8" }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "Material Extra": [{
+                    "files": [
+                        { "name": "2021-2022-Bernoulli Modificada.pdf", "id": "1_Fxn0B-Vi4LYl-W_QFCm6q_eqMjBC6Th" },
+                        { "name": "2021-2022-Resumos.pdf", "id": "1P1uB4JuSIk9Sig_-mZzmmtII6KjqBHqN" }
+                    ]
+                }]
             },
+
             "Gestão": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [{
+                    "folder": [
+                        { "name": "MAPs" },
+                        {
+                            "files": [
+                                { "name": "Ges - 2021-2022 - Exercício treino MAP1 + Resolução.pdf", "id": "1ouRMkEgJFDB56m4tiZ5_8OyeerK0Rjjx" },
+                                { "name": "Ges - 2021-2022 - Exercício treino MAP1.pdf", "id": "1uihWP2AdV6H7xFJMEnK0jUPn_s-b5DjI" }
+                            ]
+                        }
+                    ]
+                }, {
+                    "folder": [
+                        { "name": "Testes (1º Exame 50%)" },
+                        {
+                            "files": [
+                                { "name": "Ges - 2021-2022 Teste 23Nov2021 V1 + Resolução.pdf", "id": "1zBC_pkHG9aDlFA2ASWLy3puvRztWP7Jk" }
+                            ]
+                        }
+                    ]
+                }],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [{
+                        "folder": [
+                            { "name": "Ges - 2021-2022 Slides Teóricos" },
+                            {
+                                "files": [
+                                    { "name": "Slides Ges_Trim 5 MKTG.pdf", "id": "10bhM5DSsLDumfWZ7KE5fvRbMLzYoXK2A" },
+                                    { "name": "Slides Ges_Trim 3 AvProj.pdf", "id": "1I_q_3rlQNUvcJWMjYFr3jCGIroNzUHjZ" },
+                                    { "name": "Slides Ges_Trim 4 G_Estr.pdf", "id": "1n9_3ulwa_ThXRD-0_geokTd845eA0kgt" },
+                                    { "name": "Slides Ges_Trim 2 InfFin.pdf", "id": "14MvVLyWphuP7bLt-j1K_RT-6bOMWcwxS" },
+                                    { "name": "Slides Ges_Trim 1 IntGes.pdf", "id": "1lZbjPfpKxujtp7SD8JL5caA4l-21nM4u" }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "folder": [
+                            { "name": "Ges - 2021-2022 Problemas Aulas Práticas" },
+                            {
+                                "files": [
+                                    { "name": "Exs Ges_Trim 4 G_Estr.pdf", "id": "1Pl8kHALU2RLWxHFCXVs1L_AuZyz_hBJA" },
+                                    { "name": "Exs Ges_Trim 5 MKTG.pdf", "id": "1fk_wuR2uOPdVsl06eLHbTXD0sXCfCf_M" },
+                                    { "name": "Exs Ges_Trim 3 AvProj.pdf", "id": "1B54WOATtoZWYCNrHaLBSlzfRAVp1biDk" },
+                                    { "name": "Exs Ges_Trim 2 InfFin.pdf", "id": "11wcAe4i04b6cxxBvSsxWV5V6KzHfcFSf" },
+                                    { "name": "Exs Ges_Trim 1 IntGes.pdf", "id": "1SvASZ3wOymxyhyRpd_geWgUZkGIGqgVB" }
+                                ]
+                            },
+                            {
+                                "folder": [
+                                    { "name": "Ges - 2021-2022 Problemas Aulas Práticas Resolvidos (Inês Trincheiras)" },
+                                    {
+                                        "files": [
+                                            { "name": "Exs Ges_Trim 1 IntGes.pdf", "id": "18EN9sE732HEYt3gZbxaINBCUWKVaUCOC" },
+                                            { "name": "Exs Ges_Trim 2 InfFin.pdf", "id": "1DqFmbC1b2ze9pH2oXyzKBpBAX09l6YsX" },
+                                            { "name": "Exs Ges_Trim 3 AvProj.pdf", "id": "1LVCYw_aHXIW-1uvCdbUT53D5LGTEf9V6" },
+                                            { "name": "Exs Ges_Trim 4 G_Estr.pdf", "id": "1VtzFp97kK8LnfeMNRZvEwM7fzl0I2Spt" },
+                                            { "name": "Exs Ges_Trim 5 MKTG.pdf", "id": "1sH_KXly-sW6mdsOS2jaN4YLsqHjoby7m" }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "Material Extra": []
             },
+
             "Introdução a Processos de Separação": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [{
+                    "folder": [
+                        { "name": "MAP30" },
+                        {
+                            "files": [
+                                { "name": "IPS - 2021-2022 MAP30 + Resoluções.pdf", "id": "1vUpeX69_d0ZRLQI3rNDpB4l2Qd0pe_Ta" },
+                                { "name": "IPS - 2021-2022 MAP30.pdf", "id": "1NEy6pfnNx5ZIpt1tsBVriXX2Gu8mLIy7" }
+                            ]
+                        }
+                    ]
+                }],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [{
+                    "folder": [
+                        { "name": "IPS - 2021-2022 Exercícios (Prof. Miguel A. Rodrigues)" },
+                        {
+                            "files": [
+                                { "name": "3. Destilação Multicomponente.pdf", "id": "1Idu3vXEKAmGnhwMeRxI80rxRQ2LUl5l_" },
+                                { "name": "6. Extração Líquido-Líquido.pdf", "id": "1KDKryXO7FTJS7_JCTSVD4lFy-nDEKEhs" },
+                                { "name": "5. Absorção-Desabsorção.pdf", "id": "1VQCFgQGxWVuQUnLPTj9phNzqJJ7rGQ5d" },
+                                { "name": "4. Destilação Descontínua.pdf", "id": "19LgXalJzaZroAMrzoz6zZ_HQ7i3tNd74" },
+                                { "name": "2. Destilação Contínua.pdf", "id": "1xTgRkrIHjO_jUTGelW_n4-jkMSibAFbZ" },
+                                { "name": "1. Destilação Flash.pdf", "id": "1rI4U_h6kzRBVhypTLTvUgNNP5exIUTpg" }
+                            ]
+                        },
+                        {
+                            "folder": [
+                                { "name": "IPS - 2021-2022 Exercícios Resolvidos (Prof Miguel A. Rodrigues)" },
+                                {
+                                    "files": [
+                                        { "name": "6. Extração Líquido-Líquido (Resolução).pdf", "id": "1dgUik_oED8hm1r7gEkMCF5BdRRj5iUUP" },
+                                        { "name": "5. Absorção-Desabsorção (Resolução).pdf", "id": "18Y8J62YRmf2li0IZW5kLlhCGcb5kETeh" },
+                                        { "name": "4. Destilação Descontínua (Resolução).pdf", "id": "1oBLpkaONOQnVPBCKbEPt7pJNUGfVL_Kq" },
+                                        { "name": "3. Destilação Multicomponente (Resolução).pdf", "id": "1FIunWCzeSpa4YFe9SKgqGCGx9nLD_DiN" },
+                                        { "name": "2. Destilação Contínua (Resolução).pdf", "id": "1l1JKcxYPRi6n0cK99zLQEx-H6Ih3J2_4" },
+                                        { "name": "1. Destilação Flash (Resolução).pdf", "id": "1kA_qglfsP0kImys7vXZrxPcaP02SahGU" }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }],
+                "Material Extra": [{
+                    "files": [
+                        { "name": "2021-2022 - O que preciso de saber sobre a destilação descontínua?.pdf", "id": "14_8dyIK9bzs_0UkrwZrxB1tkSFxv-GOH" },
+                        { "name": "2021-2022 - Resumos Teóricos.pdf", "id": "1chLdb-NnDxyLwqw4SDSHIhHceBXLCLu5" }
+                    ]
+                }]
             },
+
             "Processos de Engenharia Biológica": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             },
+
             "Termodinâmica de Engenharia Química": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [{
+                    "files": [
+                        { "name": "TEQ - 2021-2022 Exame 1.pdf", "id": "13bkUmUxr4WbJPnuqAsx8GHG04Txfz23D" }
+                    ]
+                }],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": [{
+                    "files": [
+                        { "name": "2021-2022 - Resumos.pdf", "id": "1b_7kpcB1UcPyWPhfbMS1cznalC9vEDDm" },
+                        { "name": "2021-2022 - Dedução de equações.pdf", "id": "1IYa-4ofVqiDClNp9JvIcaei_WxSbM862" }
+                    ]
+                }]
             }
         },
 
+
         "2º Semestre": {
             "Biologia Estrutural": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             },
+
             "Biorrefinarias e Bioprocessos": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             },
+
             "Biotecnologia Marinha": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             },
+
             "Design de Nanomateriais": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             },
+
             "Engenharia de Células e Tecidos": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             },
+
             "Engenharia e Design de Proteínas": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             },
+
             "Fábricas Celulares Microbianas": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             },
+
             "Fabrico de Biofármacos": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             },
+
             "Introdução à Economia": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             },
+
             "Introdução à Matemática Computacional": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             },
+
             "Laboratórios de Engenharia Biológica": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             },
+
             "Microbiomas": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             },
+
             "Simulação de Sistemas Dinâmicos": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             },
+
             "Tecnologias Verdes e Estratégias de Decisão": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             }
         }
     },
@@ -446,86 +961,471 @@
     "4º Ano": {
         "1º Semestre": {
             "Empreendedorismo em Bioengenharia": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             },
+
             "Gestão da Produção e das Operações": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [{
+                    "folder": [
+                        { "name": "Projeto Handout" },
+                        {
+                            "files": [
+                                { "name": "GPO - 2021-2022 Enunciado Handout (Prof. Tânia Varela)", "id": "16BSjitSExL7uP8NpbLgLMNxsdzsAF9Ck" }
+                            ]
+                        }
+                    ]
+                }, {
+                    "folder": [
+                        { "name": "Case-Study Report" },
+                        {
+                            "files": [
+                                { "name": "GPO - 2021-2022 Case-Study Report Rules (Prof. Tânia Varela)", "id": "1toJQbFBIkZ085kp2iZrkyci-jV4XwNFp" }
+                            ]
+                        }
+                    ]
+                }],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [{
+                    "folder": [
+                        { "name": "GPO - 2021-2022 Slides Teóricos (Prof. Tânia Varela)" },
+                        {
+                            "files": [
+                                { "name": "Cap 4.5 - GPO Lean", "id": "1W-2eWxgVej0aVpW_PwVtK2JZXRMPQozt" },
+                                { "name": "Cap 3 - GPO Scheduling", "id": "1WWsBH-yGMifdnH9cCi0-hTmlAws7RPe2" },
+                                { "name": "Cap 1.3 - GPO Operations Strategy", "id": "1NtWKvRD_ZG4zzNSa5b6OpSOIOK5W_TCM" },
+                                { "name": "Cap 2.1 - GPO Nature of Planning", "id": "14cp5K0PCtntHPxMsgL3r4OaMQWKsNdFM" },
+                                { "name": "Cap 1.2 - GPO Introduction", "id": "1g8-h1uPbt8NeO7zJbN5aUUwrmIF6-LKT" },
+                                { "name": "Cap 0 - GPO Organization ", "id": "1EM0OtyCRo01b8jwoTJORj8eAW93ySI6x" }
+                            ]
+                        }
+                    ]
+                }],
+                "Material Extra": [{
+                    "folder": [
+                        { "name": "Livros" },
+                        {
+                            "files": [
+                                { "name": "operations_management_by_slack_nigel_7th", "id": "15ak5Gtcb4H5Rv9Xm1sVQKgxgEWzSEyS2" }
+                            ]
+                        }
+                    ]
+                }]
             },
+
             "Reatores Biológicos": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [{
+                    "folder": [
+                        { "name": "Laboratórios" },
+                        {
+                            "files": [
+                                { "name": "RB - 2021-2022 Tutorial for report writing", "id": "18RkC22Hn-LxhlgxBWYk8Dj5howERXuc8" },
+                                { "name": "RB - 2021-2022 Protocolo Laboratorial", "id": "1awJMe5rTRZgNpUrKxomh1w6HL9kZjAp6" },
+                                { "name": "RB - 2021-2022 Appendix I", "id": "1Ta__GF3rKAhRZY8SfvPOm96nTO_FOYlH" }
+                            ]
+                        }
+                    ]
+                }],
+                "Exames": [{
+                        "files": [
+                            { "name": "RB - 2021-2022 Exame 2", "id": "1zH4Z1Xlxb67G6yniVilIpDVbxJTfTK_B" },
+                            { "name": "RB - 2021-2022 Exame 1 - Resolução", "id": "1w8udPHnxYOgMWy0B3itk4RZBWHHNMOXR" },
+                            { "name": "RB - 2021-2022 Exame 1 ", "id": "176-a5DE56RcBXM1uacy2KCshmE5U68zq" }
+                        ]
+                    },
+                    {
+                        "folder": [
+                            { "name": "RB - Exames-Testes antigos" },
+                            {
+                                "files": [
+                                    { "name": "RB - 2018-2019 Exame 1 (English Version)", "id": "11hksFp6QeMdBjWz1JGEcsIeMJZrDoO1O" },
+                                    { "name": "RB - 2018-2019 Exame 1 - Resolução", "id": "1POzth-jT68AmO8b_lRoDEORfqP5o94Bm" },
+                                    { "name": "RB - 2018-2019 Anexo Exame 1 (English Version)", "id": "1c2Itcb5eNZyUm12yy-HTIpSnrUYh7jD3" },
+                                    { "name": "RB - 2018-2019 Anexo Exame 1", "id": "1v3ENryyQ268NOhDaxiAkLtz-i2_j2aST" },
+                                    { "name": "RB - 2017-2018 Teste 2 - Resolução", "id": "1cfv__WKkXdJ6MR2mV5NovkpZxJ2qCPmU" },
+                                    { "name": "RB - 2017-2018 Teste 2", "id": "1sbZs-nwxfQggQgkDhq5tobDAUgY-lrQ0" },
+                                    { "name": "RB - 2017-2018 Teste 1 (English Version)", "id": "1jvBUE9d7wqz9yjNz3VR4kqxrcxbhEcwr" },
+                                    { "name": "RB - 2017-2018 Teste 1", "id": "13I32DEyUOHOgycaG1tntNgyTDaFqg1kO" },
+                                    { "name": "RB - 2017-2018 Exame 1 - Resolução", "id": "1JV33jngl8A8ohqnDVmnGhPdPTeDxTZNl" },
+                                    { "name": "RB - 2017-2018 Exame 1", "id": "1HCnwhuIrQ43L02mTh-WBOrQPd-QDwKaY" }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "Material do Aluno": [],
+                "Material do Professor": [{
+                    "folder": [
+                        { "name": "RB - 2021-2022 Exercícios (Prof. Marília Mateus/ Prof. Carla Carvalho)" },
+                        {
+                            "files": [
+                                { "name": "2021-2022 - Exercícios Sugeridos + Resolução", "id": "184oxlfHGFcuvaoJPV5VrooxtY40iqqrG" },
+                                { "name": "2021-2022 - Exercícios Sugeridos (English Version)", "id": "1gPmFqReswmlxxYCzTc0AAS25JltlrTY4" },
+                                { "name": "2021-2022 - Exercícios Sugeridos", "id": "1PuHrzpiPkQKSmiLxoVl9ROEEjqiAzW5R" }
+                            ]
+                        }
+                    ]
+                }, {
+                    "folder": [
+                        { "name": "RB - 2021-2022 Slides Teóricos (Prof. Marília Mateus/ Prof. Carla Carvalho)" },
+                        {
+                            "files": [
+                                { "name": "15. Biological reactors-Scale up-2021", "id": "1uWznR3DksOFrTLWeLC-dFSRiNxxCzd7C" },
+                                { "name": "14. Biological reactors-Scale down-2021", "id": "1Z4UoTGjNahJ0GiEXlcY9oEqeQqVc3U18" },
+                                { "name": "13. Biological reactors-Heat transfer-2021", "id": "1unFNZ-8Jzf_5dthCzO3dnw0CuTEelB5U" },
+                                { "name": "12. P-SRF-Sterile-Air-Depth-Filter-Elements", "id": "1xqLvygzAF3unIj-Pv4MxtxXdX45xR8hx" },
+                                { "name": "11. Air-sterilization", "id": "1lwDCSiZm6gtU0HnqU6B8ZBTo6zrFm_hn" },
+                                { "name": "10. Axial-Dispersion-in-continuous-sterilization", "id": "1pakUrrnoRLo6kN0X8c0M0OZTPFCSF5ZY" },
+                                { "name": "9. Sterilization of Cultivation Media", "id": "1fJZ12Pe3x2csF9HmzTEEKdNEO9By6Yaf" },
+                                { "name": "8. Pneumatic-bioreactors", "id": "13gwLOqdPRQiaaqEBY9DIYjOMZpTjfrGx" },
+                                { "name": "7. Reminder-on-Bioreactor(ion)-choices-2020", "id": "1k0Dg4H9Y1BxXea1gNWMhdnKF4gsGxyOv" },
+                                { "name": "6. Mechanical mixing and Power for O2 Transfer", "id": "1KUZplB6hivAvGZS0qRdwKu3yJMpMl_Pr" },
+                                { "name": "5. Modelling & Simulation", "id": "1TCt3FI8BUGIXdz57oE2vKZejj7OVm_a5" },
+                                { "name": "4. Oxygen Transfer & Consumption", "id": "1SJ5PLKxdXKL4FrtR2k5hiLNdZcFnOPk8" },
+                                { "name": "3. Microbial Process Kinetics - Part II", "id": "1UXsEKP1U1anJR-UeOUv9ohZeHgOAE4VL" },
+                                { "name": "2. Microbial Process Kinetics RB - Part I ", "id": "1ikj4EixcKI2OEaAvMQ-y2ZWndgTSQ0hH" },
+                                { "name": "1. Biological reactors-Motivation and overview-2021", "id": "1WAeGPcGIcZAjV6G_RfjZZqiN_W0MViZS" }
+                            ]
+                        }
+                    ]
+                }],
+                "Material Extra": [{
+                    "folder": [
+                        { "name": "Livros" },
+                        {
+                            "files": [
+                                { "name": "Errata_livro_REACTORES-BIOLOGICOS", "id": "1eFFJ3CYxILlq6iAkQCWJm3Eko9OXK4TW" }
+                            ]
+                        }
+                    ]
+                }]
             },
+
             "Separação e Purificação de Produtos Biológicos": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [{
+                    "folder": [
+                        { "name": "Laboratórios" },
+                        {
+                            "files": [
+                                { "name": "SPPB - 2021-2022 - Protocolo Lab. 2 e 3", "id": "1goMlnfwjfp_E_8XzZ2XD3eO65OakoxGQ" },
+                                { "name": "SPPB - 2021-2022 - Protocolo Lab. 1", "id": "1Cs7bJ5BCe4aJS5GnPh08jo_OOssMcy_A" },
+                                { "name": "Purification of plasmid vectors", "id": "1Qno1DQ5viSvk1Zwd3ctuNbANR7fg_97t" }
+                            ]
+                        }
+                    ]
+                }],
+                "Exames": [{
+                    "files": [
+                        { "name": "SPPB - 2021-2022 Exame 2 - Resolução", "id": "1AEgYrY05dGsTd6YZxIuYTLw7naOEiT7w" },
+                        { "name": "SPPB - 2021-2022 Exame 2 (English Version)", "id": "1Fu3pvNIPsdt8hz8mXRclVKF1JrKP12vW" },
+                        { "name": "SPPB - 2021-2022 Exame 2 (Versão em português)", "id": "1cwRnoGbisacUBa59iIJShmf4NVIig86K" },
+                        { "name": "SPPB - 2021-2022 Exame 1 - Resolução", "id": "1KOj8mjG-_ZmVkJa_up0s9x1KgblOtULp" },
+                        { "name": "SPPB - 2021-2022 Exame 1 (English Version)", "id": "1yyf0JwqpLmfFHk0bAN4LgIzJJ40s2H0W" },
+                        { "name": "SPPB - 2021-2022 Exame 1 (Versão em português)", "id": "10RRilKUFTmnbT4ZV7yFWgb4LHtddq0Z-" },
+                        { "name": "SPPB -  Exames Anteriores (2015-2021) - Resolução", "id": "1b0seMZdJz8jEsOGFcY5eqJtL8tXdqfaT" },
+                        { "name": "SPPB -  Exames Anteriores (2015-2021)", "id": "1OYoTkd94RBjc5QKz0mw85Q94T7bSf8rY" }
+                    ]
+                }],
+                "Material do Aluno": [],
+                "Material do Professor": [{
+                    "folder": [
+                        { "name": "SPPB - 2021-2022 Exercícios-Quizzes (Prof. Ana Azevedo)" },
+                        {
+                            "files": [
+                                { "name": "Quiz 6-Membrane process - Resolução", "id": "1f42C1un-f7LhD9wz0pcU0gWBZEcj6N_O" },
+                                { "name": "Quiz 4-Cell disruption - Resolução", "id": "1CallJrKn7DmKLHS88GR2XZw7DUYgA43Y" },
+                                { "name": "Quiz 3-Sedimentation & Centrifugation - Resolução", "id": "1shzdxHTzAWOTwAnNoYCWqszg-BPSBrIo" },
+                                { "name": "Quiz 2-Filtration - Resolução", "id": "1hR3cKiQV6-A4oiiQsucyUpu8ergcsqIx" },
+                                { "name": "Intermediate Purification Questions- Reolução", "id": "1ZT2kYQZY9zSTZ0h6FX95OoS3MBuREX1G" },
+                                { "name": "Quiz 6-Membrane process", "id": "15zbUB8GQnnqrrRmJJYrXI6Unw84LUc4U" },
+                                { "name": "Quiz 5-Precipitation", "id": "1snQaZlgvTzhVgqd9UQ5tVe8OKMv-Qhi_" },
+                                { "name": "Quiz 4-Cell disruption", "id": "1pDc4csExaVLM9Nz8AlwjRNZoyFSkY_80" },
+                                { "name": "Quiz 3-Sedimentation & Centrifugation", "id": "1XcmymP0qxT6B8-SdMyWFSka3_xNmTMyU" },
+                                { "name": "Quiz 2-Filtration", "id": "1hMYEsQU2GO8lSFyc3Zzn5h_AI9fzVq1W" },
+                                { "name": "Quiz 1-Introduction", "id": "1kKSMRNNPHvdZ8bsE3TzLT3DJA9KPBnFN" }
+                            ]
+                        }
+                    ]
+                }, {
+                    "folder": [
+                        { "name": "SPPB - 2021-2022 Slides Teóricos (Prof. Ana Azevedo)" },
+                        {
+                            "files": [
+                                { "name": "6. Chromatography", "id": "1EpI9Kn1GkbO8t7g-PaiGIeaZbQB1vKBS" },
+                                { "name": "5. Intermediate Purification", "id": "1pbZvjhN0AgW8vEt9QAyPvgqPfqp0zKV_" },
+                                { "name": "4. Cell Disruption", "id": "17UOsLvrf9v6LXNw9JDR6t8e8VxURqWq0" },
+                                { "name": "3. Membrane Processes", "id": "13ucrVvg8yhqyV11YyEIZmi5744TB9ZdS" },
+                                { "name": "2. Solid-liquid separations", "id": "1cLgtc4H00wpZUCYQ1BpDwOQdZ8IWEqHK" },
+                                { "name": "1. Introduction", "id": "1C4eJ4-X0v1L_U0KJFvI5moFTRvCSBcKo" },
+                                { "name": "0. SPPB 21-22", "id": "1C9-83pRJuQ8ivJAswf2gTuyyvRAvNtCp" },
+                                { "name": "0. Course INTRODUCTION", "id": "1DfR7_Y3WYm66VvmtHY_LX8afHSOty5zv" }
+                            ]
+                        }
+                    ]
+                }],
+                "Material Extra": [{
+                    "folder": [
+                        { "name": "Livros" },
+                        {
+                            "files": [
+                                { "name": "Protein Purification Techniques", "id": "1zEMjT0OrwEYeq3QIgV-T1uazj5hXYjhT" },
+                                { "name": "Isolation and Purification of Proteins", "id": "1bD9TSEMw63KuW5YFV8RwynYxZbc-oAVr" },
+                                { "name": "Guide to Protein Purification", "id": "1Y43Eo5kMfQE-EIlYcvubJwPs-yR1z1SX" },
+                                { "name": "Fundamentals of Biological Separation Processes", "id": "1nEnstyN9sLn66cnaxLqULaVlyZffEbTK" },
+                                { "name": "Downstream Industrial Biotechnology", "id": "1aFhxdHn1WA4Wxz9H53jav-wDIOF3NAer" },
+                                { "name": "Filtration", "id": "1s_cABduR0Cfbl23Q9AzQC4oEGjcX8aLf" },
+                                { "name": "Centrifugation", "id": "1dmlarFqNHluHy4TjrjFxVSw7u3mK-PX9" }
+                            ]
+                        }
+                    ]
+                }, {
+                    "folder": [
+                        { "name": "Fórmulas" },
+                        {
+                            "files": [
+                                { "name": "Formulas SPPB", "id": "174kXQ2SihCgBbVDubpei58hE7BE36R6v" }
+                            ]
+                        }
+                    ]
+                }]
             },
+
             "Sistemas e Controlo em Bioengenharia": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [{
+                    "folder": [
+                        { "name": "Enunciado dos Laboratórios" },
+                        {
+                            "files": [
+                                { "name": "2021-2022 - Enunciado Laboratório 4", "id": "1E8LL6Ydp0gFFUBPNIjODySciEeEtRx01" },
+                                { "name": "2021-2022 - Enunciado Laboratório 3", "id": "1KnacbzpdFVQOGkz-tYGzcS3qvEsbFSr6" },
+                                { "name": "2021-2022 - Enunciado Laboratório 2", "id": "1GUixVw_u-18K_OCQtSsdryBP8T1n-b1Z" },
+                                { "name": "2021-2022 - Enunciado Laboratório 1", "id": "1e1La7JuK-2vPzPwjqw0hTkLp-a2744Fk" }
+                            ]
+                        }
+                    ]
+                }],
+                "Exames": [{
+                    "files": [
+                        { "name": "SCB - 2021-2022 Exame 2 + Solução", "id": "1AzA95jCfz1BoL2K9i-PjGQVR9wgmMEsc" },
+                        { "name": "SCB - 2021-2022 Exame 1 + Solução", "id": "12td0lWQ4-nDoWZx8vXzVuRx9zL9YfQBi" },
+                        { "name": "SCB - 2021-2022 Exame 1 (Versão Remota) + Solução", "id": "10lLUy3U9NFCYd1djJ8ANXa1e7HtOixv4" },
+                        { "name": "SCB - 2021-2022 Exame 1 - Resolução", "id": "1aMIVH3zJ9qDV7OPHXf6UufqDp_AD5qYU" }
+                    ]
+                }],
+                "Material do Aluno": [],
+                "Material do Professor": [{
+                    "folder": [
+                        { "name": "SCB - 2021-2022 Apontamentos das Aulas (Prof. João Sanches)" },
+                        {
+                            "files": [
+                                { "name": "14. SCB_02_02_2022_control digital II", "id": "19fhHF9S6-YqcTQXujyUm02v6fgnf10Rk" },
+                                { "name": "13. SCB_02_02_2022_controlo digital", "id": "18rqClTZomoYPkV8RTTaARltzMYgCNigM" },
+                                { "name": "12. SCB_01_02_2022_exercicios", "id": "1TCUK9h-5BaUv00-pu_YshnKQe0YiqRKj" },
+                                { "name": "11. SCB_01_02_2022_controlo digital", "id": "1WQZm1ZWtTzb6WTWrBJA97gWI0PqEl8oU" },
+                                { "name": "10. SCB_26_01_2022_PID", "id": "1ONRo85yCQ7niI-cHMZ3DwV_BmiHvR-sw" },
+                                { "name": "9. SCB_25_01_2022_exercicios", "id": "1pL8kYUbD-_1jAuy--Jb2mk-9iLvLPK-D" },
+                                { "name": "8. SCB_24_01_2022_rootLocus", "id": "13PMAgsNiww0B3k8W_sxmj_2xKQp7AXQ8" },
+                                { "name": "7. SCB_19_01_2022_condicao de modulo e de angulo", "id": "1jdoGjigUq4AhZ097oAnaop6FuB1mmEOQ" },
+                                { "name": "6. SCB_18_01_2022_exercicios", "id": "1caoCaHUcFsY37-31aEG5McpsDI40FO8F" },
+                                { "name": "5. SCB_17_01_2022_rootLocus", "id": "12LJwMroL7596PAABac9Ty4GAu5MJhTFX" },
+                                { "name": "4. SCB_10_01_2022_introd_realimentacao", "id": "1Rm72jvnzVc9b5EKUs8NrLZAli1ilbXDA" },
+                                { "name": "3. SCB_15_12_2021_Resposta no tempo", "id": "1g1V0fLQKK-kxvhaijFHIrvSJFhBinWyF" },
+                                { "name": "2. SCB_13_12_2021_funcaoTransferencia", "id": "1FutMWGsvM4Hz1XRReV2J1lIOgFJVdVNY" },
+                                { "name": "1. ComplexNumbersAndLaplaceTransform", "id": "1lW7Aw2hMZ8BhACVPMnpwlje3ZozispCR" }
+                            ]
+                        }
+                    ]
+                }, {
+                    "folder": [
+                        { "name": "SCB - 2021-2022 Exercícios (Prof. João Sanches)" },
+                        {
+                            "files": [
+                                { "name": "2019-2020  Exercícios do Exame Época Especial + Solução", "id": "1lYLahyRmwVYZDxeWDBHcpIMBgRIgpjki" },
+                                { "name": "2018-2019  Exercícios do Exame 2 + Solução", "id": "1oZ2ffVuM0DUk-AT5CdPZ4X3nj96BUAXL" },
+                                { "name": "2018-2019  Exercícios do Exame 1 + Solução", "id": "1ZTcSa8KRc0KvBhszKVmT-3c1HvdJoj2R" },
+                                { "name": "2017-2018  Exercícios do Exame Época Especial + Solução", "id": "1KJPFSgJpjSDrkYsvCBySI-du1hXTbXVC" },
+                                { "name": "2017-2018  Exercícios do Exame 2 + Solução", "id": "1GskTOxm7Bys01XiO5VvP8PEBrMAIj_u2" },
+                                { "name": "2017-2018  Exercícios do Exame 1 + Solução", "id": "11DUdrW9WvQVDaye-pjQE8ImMBjp-idvM" },
+                                { "name": "Exercícios SCB", "id": "1OcuLdUL29O51BdBeOJI0nNSrmWX8Armg" }
+                            ]
+                        }
+                    ]
+                }, {
+                    "folder": [
+                        { "name": "SCB - 2021-2022 Slides Teóricos (Prof. João Sanches)" },
+                        {
+                            "files": [
+                                { "name": "6. SCB_Rootlocus", "id": "1TLlRyIsRCn-ww0CLp_mNQwrtKRfAe-En" },
+                                { "name": "5. SCB_Feedback", "id": "1v4H_SgO5xnxuW3xRsxtM3kCTMG_c3xHw" },
+                                { "name": "4. SCB_Control_TimeResponse", "id": "1keUIuf8VH8syZPKd44iftTQqVdPkNFMZ" },
+                                { "name": "3. SCB_Control", "id": "1oM3FLYbGfHUSbxsN_xV8Nb6BlMms-CVn" },
+                                { "name": "2. SCB_Introduction", "id": "1yZA8PYQmMhnjG7QNtkbvSEj6-OFkzsuz" },
+                                { "name": "1. SCB_Projects_JS", "id": "1OJ-HsJLXMQzC31KH7IGVRkvg0-DvIpim" },
+                                { "name": "0. SCB_Presentation", "id": "12OXMC7SJSqUXpdhQ2lPJ7QgX_PlbmAAz" }
+                            ]
+                        }
+                    ]
+                }],
+                "Material Extra": [{
+                    "folder": [
+                        { "name": "Livros" },
+                        {
+                            "files": [
+                                { "name": "2018 Sebenta CONTROLO de Sistemas Dinâmicos (Eduardo Morgado)", "id": "19GteIOVQJNwe1uUXvrEITBBu7YUKudog" },
+                                { "name": "Signals and Systems, 2ed- Oppenheim & Willsky", "id": "1v1Z9AmZXSCvK3yUFcRUM-1zOFmPf1DjL" },
+                                { "name": "Norman S. Nise-Control Systems Engineering-Wiley (2015).", "id": "1QKwTwLFOE35X4Is1hO6DkPQ_tX7ZOqzK" },
+                                { "name": "Feedback Control in Systems Biology by Carlo Cosentino, Declan Bates (z-lib.org)", "id": "1uuW9v_zbkZw5VjVjq5vkMhzqCrXugDvR" },
+                                { "name": "Modern Control Systems 12Th Ed - R Dorf, R Bishop (Prentice Hall, 2011) Ww", "id": "1o-zzEhGJhB602v6QT3dISl-VU3uKAgAV" },
+                                { "name": "FirstSecondOrder", "id": "1UMXcKRGb8txfdhXvyu6hjfCnM4iuA5Ob" }
+                            ]
+                        }
+                    ]
+                }]
             },
+
             "Tecnologia Ambiental": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [{
+                    "folder": [
+                        { "name": "Trabalho de Grupo" },
+                        {
+                            "files": [
+                                { "name": "TAmb - Documentos úteis.zip", "id": "12uqvdopC4gpZdfZaKq_Q96kc0WrIcxg5" },
+                                { "name": "TAmb - 2021-2022 Teamwork Description (english version)", "id": "1arsCzUvQv53SiKZx5Yr_tT2Sa4yNngbr" },
+                                { "name": "TAmb - 2021-2022 Enunciado Trabalho (Versão em português)", "id": "13KYMNXCIuytLsSn3hEi2lHFzYa4nhDTm" }
+                            ]
+                        }
+                    ]
+                }],
+                "Exames": [{
+                    "files": [
+                        { "name": "TAmb - 2021-2022 Exame 2 + Resolução", "id": "1MutH0JIhMCaI7Yy1r0bW3Cj-LFRRJSXT" },
+                        { "name": "TAmb - 2021-2022 Exame 1 + Resolução", "id": "1RIQWJtaP72ExXi6IJhD_Mp3ZwchGAQMo" },
+                        { "name": "TAmb - 2021-2022 Exemplo de Exame 8 + Resolução", "id": "16SCb5K5wQx_4cPJPkg5kJxSYsvMVhpZZ" },
+                        { "name": "TAmb - 2021-2022 Exemplo de Exame 7 + Resolução", "id": "18d8zU_uQ3IToCFEuHPIH56ZpCasdB2-1" },
+                        { "name": "TAmb - 2021-2022 Exemplo de Exame 6 + Resolução", "id": "1fz1_2Xx8TNTGnUEGq0yrB4co78R4IfZu" },
+                        { "name": "TAmb - 2021-2022 Exemplo de Exame 5 + Resolução", "id": "1HSnytLoh1ngp0eJFk16zk2gRHlLvrm-y" },
+                        { "name": "TAmb - 2021-2022 Exemplo de Exame 4 + Resolução", "id": "1ECG7i5gIEojDKsIShoYDRyPmNEhMq5Vo" },
+                        { "name": "TAmb - 2021-2022 Exemplo de Exame 3 + Resolução", "id": "18N6EZ5rmow-GQw2c2TQ0z-stzJvAtmot" },
+                        { "name": "TAmb - 2021-2022 Exemplo de Exame 2 + Resolução", "id": "1LNL9MTlxfMdLZIZCD42pCTVS-iNu6nIX" },
+                        { "name": "TAmb - 2021-2022 Exemplo de Exame 1 + Resolução", "id": "1X5HXzzOgbnURK5rWxllzM7S3tDxRh0qN" }
+                    ]
+                }],
+                "Material do Aluno": [],
+                "Material do Professor": [{
+                    "folder": [
+                        { "name": "TAmb - 2021-2022 Exemplos Resolvidos (Prof. Helena Pinheiro)" },
+                        {
+                            "files": [
+                                { "name": "Exemplo 2.12.1 - 2.12.3 + Resolução", "id": "1D0jSm7Lcx9qt7NRmCciVF5mlqHovgaY_" },
+                                { "name": "Exemplo 2.11.1 - 2.11.2 + Resolução", "id": "11UqmvDpB4bN0H2Y-xy41wkLf8vQ-yAeE" },
+                                { "name": "Exemplo 2.10.3 + Resolução", "id": "1gXEqNKWFcFaC3BHhDlQm9xOZrIyCUwHs" },
+                                { "name": "Exemplo 2.10.1 - 2.10.2 + Resolução", "id": "1HyBhakSio-OcSLHPUexqwX65sy2rjbmE" },
+                                { "name": "Exemplo 2.9.1 - 2.9.2 + Resolução", "id": "1-G1RThS5eiuN2HC9X4i3MCZlmusdS1IC" },
+                                { "name": "Exemplo 2.8.1 - 2.8.2 + Resolução", "id": "1nfX5jkpP_pbR-Nq-Xk5m6C5B2mXjKFKB" },
+                                { "name": "Exemplo 2.7.2 + Resolução", "id": "1dBl2217Cb1wJPL97K3cgRxz9jgUZFH0c" },
+                                { "name": "Exemplo 2.7.1 + Resolução", "id": "1ldw1cbi4WxOaDgnhkdCo3U02QmhcLLBM" },
+                                { "name": "Exemplo 2.6.1 + Resolução", "id": "1EIEakQ0NSh-5wB3mFh_iWZ9W-SIQQYvv" },
+                                { "name": "Exemplo 2.5.1 - 2.5.2 + Resolução", "id": "1SbaxF-6y8QiUhuNf__geCLYTVh24Wl6c" },
+                                { "name": "Exemplo 2.4.2 - 2.4.3 + Resolução", "id": "1-qQR4Jh7Fj1GwEZfEywyKNfzkbR4c0a2" },
+                                { "name": "Exemplo 2.4.1 + Resolução", "id": "1iCOMcxlMrmQVTd655ZPhkR7iz6E3OvO5" },
+                                { "name": "Exemplo 2.3.1 - 2.3.2 + Resolução", "id": "11cHhbe89flvUFxCYSoIkmXImh0DarUBx" },
+                                { "name": "Exemplo 2.2.4 - 2.2.7 + Resolução", "id": "1W7X_N3L-tKgmxl7AvkM0mbE-TKZDc90B" },
+                                { "name": "Exemplo 2.2.1 - 2.2.3 + Resolução", "id": "1ZqJK3Vhk6ReNABTkTVLacKvwOCB_gP4W" }
+                            ]
+                        }
+                    ]
+                }, {
+                    "folder": [
+                        { "name": "TAmb - 2021-2022 Slides Teóricos (Prof. Helena Pinheiro)" },
+                        {
+                            "files": [
+                                { "name": "Aula 2.12", "id": "1nQquIFiAWuUzygJx-mKcmqEKSOrnipDh" },
+                                { "name": "Aula 2.11", "id": "1TZACMmJbw67DR0B89MJv_sPgtAfhB4ZG" },
+                                { "name": "Aula 2.10", "id": "16LCjEIiX9-9MtytsgO8J060aKxXAWoYC" },
+                                { "name": "Aula 2.9", "id": "1IEru1LgqPH4Hu7H8I6ZpEDlMvjfKW-60" },
+                                { "name": "Aula 2.8", "id": "1p29DNFILsYMnFfCaLWXK-W_R_BvICfgo" },
+                                { "name": "Aula 2.7", "id": "1Zju1a-MC2KJE6D8SkuqdzllKOKwVbJhV" },
+                                { "name": "Aula 2.6", "id": "1zZspvBP9G2TN7B6glrBwsl_JaB7Xsqz0" },
+                                { "name": "Aula 2.5", "id": "1DcHuggozwbhcFLlbUHI2UKRGHSTYc7iT" },
+                                { "name": "Aula 2.4", "id": "1_-5bwiGaEN8CepVb6eHsrj8d3or-2Itk" },
+                                { "name": "Aula 2.3", "id": "1WBSthnXJVgw9Q5sajrSYOu1k6CqWnGRh" },
+                                { "name": "Aula 2.2", "id": "1l_5doLwSTSUX_Gyg2bAVphRx774_1SSE" },
+                                { "name": "Aula 2.1", "id": "1NVTxaNnxmi8oCVLKJwSSND9iVt4VTmHg" }
+                            ]
+                        }
+                    ]
+                }],
+                "Material Extra": [{
+                    "folder": [
+                        { "name": "Livros" },
+                        {
+                            "files": [
+                                { "name": "Davis-Cornwell_2nd-ed_excerpt.pdf", "id": "184ZlYQK9aTlAtBzLTwguTJae6hvDMNkt" },
+                                { "name": "Ch13_SWM_576-625.pdf", "id": "1Qa2pR2PuhHvN_fV5tf0iHXqt8mEWtXTj" },
+                                { "name": "2003_Metcalf-Eddy_Ch-12_excerpts.pdf", "id": "1YIwe5ZMeTQgOuppgF3gHNz1O0yUAVTXB" },
+                                { "name": "Ch12_AREng_518-575.pdf", "id": "1Fi-xYnpLTYjazq3Sef4eOEus0lHTfJ8w" },
+                                { "name": "2003_Metcalf-Eddy_Ch-7_excerpt.pdf", "id": "1Mp6iZexWmNRJwvgkntu1-Zz7D8ufSQZF" },
+                                { "name": "Ch11_WWT_460-517.pdf", "id": "1zzEe_wjWKHagJikGU2b9wkG_R7Mg1zJW" },
+                                { "name": "Ch10_WaterT_396-459.pdf", "id": "1-A26nsXYx0juglT_9AfJjC5nWJ-b6DpF" },
+                                { "name": "Ch5_Biol_excerpt_190-201.pdf", "id": "1R3WWcnHRjTAeIQTlDKi9lAQPfXhum-AT" },
+                                { "name": "Ch2_Measur_excerpt-41-51.pdf", "id": "19u8FvzFwt_1mFYm-GN7EfGDBTS0gIOYO" }
+                            ]
+                        }
+                    ]
+                }]
             },
+
             "Unidades Curriculares de Opção": {
+
                 "Microbiologia Molecular e Celular": {
-                    "Avaliação Contínua": {},
-                    "Exames": {},
-                    "Material do Aluno": {},
-                    "Material do Professor": {},
-                    "Material Extra": {}
+                    "Avaliação Contínua": [],
+                    "Exames": [],
+                    "Material do Aluno": [],
+                    "Material do Professor": [],
+                    "Material Extra": []
                 },
+
                 "Nanotecnologias": {
-                    "Avaliação Contínua": {},
-                    "Exames": {},
-                    "Material do Aluno": {},
-                    "Material do Professor": {},
-                    "Material Extra": {}
+                    "Avaliação Contínua": [],
+                    "Exames": [],
+                    "Material do Aluno": [],
+                    "Material do Professor": [],
+                    "Material Extra": []
                 }
             }
         },
 
         "2º Semestre": {
             "Engenharia de Bioprocessos Integrados": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             },
+
             "Genómica Funcional e Bioinformática": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             },
+
             "Sistemas de Gestão da Qualidade I": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
+            },
+
+            "Unidades Curriculares de Opção": {
+
             }
         }
     },
@@ -537,11 +1437,11 @@
     "5º Ano": {
         "1º Semestre": {
             "Laboratórios de Engenharia Biológica Integrados": {
-                "Avaliação Contínua": {},
-                "Exames": {},
-                "Material do Aluno": {},
-                "Material do Professor": {},
-                "Material Extra": {}
+                "Avaliação Contínua": [],
+                "Exames": [],
+                "Material do Aluno": [],
+                "Material do Professor": [],
+                "Material Extra": []
             }
         }
     }
