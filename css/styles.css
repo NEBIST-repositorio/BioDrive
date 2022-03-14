@@ -473,6 +473,7 @@ main {
 .container {
     font-size: clamp(1.083rem, 1vw + 0.75rem, 1.417rem);
     margin-top: 80px;
+    margin-bottom: 160px;
 }
 
 .container a {
